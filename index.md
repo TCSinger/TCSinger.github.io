@@ -80,10 +80,10 @@ To assess the performance of TransferSinger and baseline models in the zero-shot
 	</thead>
 	<tbody>
 		<tr>
-      			<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/yourtts/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/mega/001.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/rms/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/stye/001.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/yourtts/001.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/mega/001.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/rms/001.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/stye/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -100,9 +100,9 @@ To assess the performance of TransferSinger and baseline models in the zero-shot
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/prompt/002.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/ref/002.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/trans/002.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/prompt/002.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/ref/002.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/trans/002.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -118,10 +118,10 @@ To assess the performance of TransferSinger and baseline models in the zero-shot
 	</thead>
 	<tbody>
 		<tr>
-      			<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/yourtts/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/mega/002.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/rms/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/stye/002.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/yourtts/002.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/mega/002.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/rms/002.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/stye/002.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
