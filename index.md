@@ -12,7 +12,7 @@ Zero-shot singing voice synthesis (SVS) with style transfer focuses on creating 
 
 To assess the performance of TransferSinger and baseline models in the zero-shot SVS with style transfer task, we randomly select singing voices with unseen singers from the test set as target samples and different utterances from the same singers to form prompt samples.
 
-1. Target: 
+1.Target: 
 
 <table style='width: 40%;'>
 	<thead>
@@ -50,7 +50,7 @@ To assess the performance of TransferSinger and baseline models in the zero-shot
 	</tbody>
 </table>
 
-2. Target: 
+2.Target: 
 
 <table style='width: 40%;'>
 	<thead>
@@ -88,7 +88,7 @@ To assess the performance of TransferSinger and baseline models in the zero-shot
 	</tbody>
 </table>
 
-3. Target: 
+3.Target: 
 
 <table style='width: 40%;'>
 	<thead>
@@ -126,7 +126,7 @@ To assess the performance of TransferSinger and baseline models in the zero-shot
 	</tbody>
 </table>
 
-4. Target: 
+4.Target: 
 
 <table style='width: 40%;'>
 	<thead>
@@ -170,7 +170,7 @@ To assess the performance of TransferSinger and baseline models in the zero-shot
 
 We randomly select singing voice samples from the style-labeled testing sets of unseen singers and use these as prompt samples for the baseline models. Then, we use the style labels of these prompt samples as text prompts for TransferSinger to perform controllable style synthesis, with the timbre prompts also drawn from these prompt samples. Moreover, we randomly utilize content information from all songs in the dataset as the target.
 
-1. Target: 
+1.Target: 
 Style class: 
 
 <table style='width: 20%;'>
@@ -207,7 +207,7 @@ Style class:
 	</tbody>
 </table>
 
-2. Target:
+2.Target:
 Style class:
 
 <table style='width: 20%;'>
@@ -250,7 +250,7 @@ Style class:
 
 To test the cross-lingual style transfer performance of various models, we alternately use unseen Chinese and English data as prompts and targets for inference, using MOS and SMOS as evaluation criteria.
 
-1. Target:
+1.Target:
 Chinese->English
 
 <table style='width: 20%;'>
@@ -287,7 +287,7 @@ Chinese->English
 	</tbody>
 </table>
 
-2. Target:
+2.Target:
 English->Chinese
 
 <table style='width: 20%;'>
@@ -330,7 +330,7 @@ English->Chinese
 
 We conducted experiments on speech-to-singing style transfer and used MOS and SMOS to compare the performance of various models. To be specific, we used unseen speech audio as the prompt audio to transfer timbre and styles to the target singing voice. 
 
-1. Target:
+1.Target:
 
 <table style='width: 20%;'>
 	<thead>
@@ -366,7 +366,7 @@ We conducted experiments on speech-to-singing style transfer and used MOS and SM
 	</tbody>
 </table>
 
-2. Target:
+2.Target:
 
 <table style='width: 20%;'>
 	<thead>
@@ -408,7 +408,7 @@ We conducted experiments on speech-to-singing style transfer and used MOS and SM
 
 we undertake ablation studies to showcase the efficacy of various designs incorporated within TransferSinger. SAD is the style adapt decoder and DP means the duration predictor.
 
-1. Target:
+1.Target:
 
 <table style='width: 100%;'>
 	<thead>
@@ -431,7 +431,7 @@ we undertake ablation studies to showcase the efficacy of various designs incorp
 	</tbody>
 </table>
 
-2. Target:
+2.Target:
 
 <table style='width: 100%;'>
 	<thead>
