@@ -14,19 +14,17 @@ To assess the performance of TransferSinger and baseline models in the zero-shot
 
 1. Target: 
 
-<table style='width: 75%;'>
+<table style='width: 40%;'>
 	<thead>
 		<tr>
 			<th style="text-align: center">Prompt</th>
 			<th style="text-align: center">GT</th>
-			<th style="text-align: center">TransferSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/prompt/001.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/ref/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/trans/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -38,6 +36,7 @@ To assess the performance of TransferSinger and baseline models in the zero-shot
 			<th style="text-align: center">Mega-TTS</th>
 			<th style="text-align: center">RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
+			<th style="text-align: center">TransferSinger</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -46,63 +45,24 @@ To assess the performance of TransferSinger and baseline models in the zero-shot
 				<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/mega/001.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/rms/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/stye/001.wav" type="audio/wav"></audio></td>
-		</tr>
-	</tbody>
-</table>
-
-1. Target: 
-
-<table style='width: 75%;'>
-	<thead>
-		<tr>
-			<th style="text-align: center">Prompt</th>
-			<th style="text-align: center">GT</th>
-			<th style="text-align: center">TransferSinger</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/prompt/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/ref/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/trans/001.wav" type="audio/wav"></audio></td>
-		</tr>
-	</tbody>
-</table>
-
-<table style='width: 100%;'>
-	<thead>
-		<tr>
-      		<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">RMSSinger</th>
-			<th style="text-align: center">StyleSinger</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-      			<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/yourtts/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/mega/001.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/rms/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/stye/001.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/trans/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
 
 2. Target: 
 
-<table style='width: 75%;'>
+<table style='width: 40%;'>
 	<thead>
 		<tr>
 			<th style="text-align: center">Prompt</th>
 			<th style="text-align: center">GT</th>
-			<th style="text-align: center">TransferSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/prompt/002.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/ref/002.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/trans/002.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/prompt/002.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/ref/002.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -114,14 +74,16 @@ To assess the performance of TransferSinger and baseline models in the zero-shot
 			<th style="text-align: center">Mega-TTS</th>
 			<th style="text-align: center">RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
+			<th style="text-align: center">TransferSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-      			<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/yourtts/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/mega/002.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/rms/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 50px;"><source src="wavs/svs/stye/002.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/yourtts/002.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/mega/002.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/rms/002.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/stye/002.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 100px;"><source src="wavs/svs/trans/002.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
