@@ -401,3 +401,57 @@ We conducted experiments on speech-to-singing style transfer and used MOS and SM
 		</tr>
 	</tbody>
 </table>
+
+---
+
+# Ablation Study
+
+we undertake ablation studies to showcase the efficacy of various designs incorporated within TransferSinger. SAD is the style adapt decoder and DP means the duration predictor.
+
+1. Target:
+
+<table style='width: 100%;'>
+	<thead>
+		<tr>
+      		<th style="text-align: center">Prompt</th>
+			<th style="text-align: center">Gronud Truth</th>
+			<th style="text-align: center">TransferSinger</th>
+			<th style="text-align: center">w/o SAD</th>
+			<th style="text-align: center">w/o DP</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/prompt/001.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/gt/001.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/trans/001.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/sad/001.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/dp/001.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+2. Target:
+
+<table style='width: 100%;'>
+	<thead>
+		<tr>
+      		<th style="text-align: center">Prompt</th>
+			<th style="text-align: center">Gronud Truth</th>
+			<th style="text-align: center">TransferSinger</th>
+			<th style="text-align: center">w/o SAD</th>
+			<th style="text-align: center">w/o DP</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/prompt/002.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/gt/002.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/trans/002.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/sad/002.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/dp/002.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+---
