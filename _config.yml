@@ -1,8 +1,0 @@
-
-
-title: "TransferSinger: Zero-Shot Singing Voice Synthesis with Style Transfer"
-theme: jekyll-theme-architect
-layout: default
-markdown: kramdown
-kramdown:
-  toc_levels: 1..2
