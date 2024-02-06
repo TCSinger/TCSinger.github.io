@@ -1,9 +1,0 @@
-
-
-title: "TransferSinger: Zero-Shot Singing Voice Synthesis with Style Transfer"
-layout: default
-markdown: kramdown
-sass:
-  style: compressed
-kramdown:
-  toc_levels: 1..2
