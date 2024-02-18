@@ -8,6 +8,12 @@ Zero-shot Singing Voice Synthesis (SVS) with style transfer aims to generate hig
 
 ---
 
+## Note：
+
+Note: The audio on this GitHub page may load slowly and could pause momentarily at around the 2-second mark. Thank you for your patience.
+
+---
+
 # Zero-Shot SVS with Style Transfer
 
 To assess the performance of TransferSinger and baseline models in the zero-shot SVS with style transfer task, we randomly select singing voices with unseen singers from the test set as target samples and different utterances from the same singers to form prompt samples.
