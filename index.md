@@ -8,9 +8,7 @@ Zero-shot Singing Voice Synthesis (SVS) with style transfer aims to generate hig
 
 ---
 
-## Note：
-
-Note: The audio on this GitHub page may load slowly and could pause momentarily at around the 2-second mark. Thank you for your patience.
+**Note：** The audio on this GitHub page may load slowly and could pause momentarily at around the 2-second mark. Thank you for your patience.
 
 ---
 
