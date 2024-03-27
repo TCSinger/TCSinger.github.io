@@ -505,7 +505,7 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 
 # Ablation Study
 
-we undertake ablation studies to showcase the efficacy of various designs incorporated within TransferSinger.SAD denotes style adaptive decoder and DM means duration model of S\&D-LM.
+we undertake ablation studies to showcase the efficacy of various designs incorporated within TransferSinger. SAD denotes using style adaptive decoder or only diffusion decoder, DM means using duration model in S\&D-LM or using a simple duration predictor of Fastspeech2, and L2 means w/o l2 normalization in style encoder.
 
 1.Target: 我 的 背 脊 如 荒 丘 而 你 却 微 笑 摆 首 AP 把 它 当 成 整 个 宇 宙 你 与 太 阳 挥 手 也 同 海 鸥 问 候
 
@@ -513,23 +513,36 @@ Prompt: 直 到 那 一 天 SP 你 的 衣 衫 破 旧 而 歌 声 却 温 柔 �
 
 Successfully synthesizing the timbre, the articulation method, pronunciation, pitch transition style, and rhythm.
 
-<table style='width: 100%;'>
+<table style='width: 20%;'>
 	<thead>
 		<tr>
-      		<th style="text-align: center">Prompt</th>
-			<th style="text-align: center">Gronud Truth</th>
-			<th style="text-align: center">TransferSinger</th>
-			<th style="text-align: center">w/o SAD</th>
-			<th style="text-align: center">w/o DM</th>
+			<th style="text-align: center">Prompt</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/prompt/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/prompt/001.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<table style='width: 100%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Gronud Truth</th>
+			<th style="text-align: center">TransferSinger</th>
+			<th style="text-align: center">w/o SAD</th>
+			<th style="text-align: center">w/o DM</th>
+			<th style="text-align: center">w/o L2</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/gt/001.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/trans/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/sad/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/dm/001.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/se/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -540,23 +553,36 @@ Prompt: 才 能 知 道 伤 感 是 爱 的 遗 产 AP 流 浪 过 几 张 双 �
 
 Successfully synthesizing the timbre, the articulation method, pronunciation, pitch transition style, and rhythm.
 
-<table style='width: 100%;'>
+<table style='width: 20%;'>
 	<thead>
 		<tr>
-      		<th style="text-align: center">Prompt</th>
-			<th style="text-align: center">Gronud Truth</th>
-			<th style="text-align: center">TransferSinger</th>
-			<th style="text-align: center">w/o SAD</th>
-			<th style="text-align: center">w/o DM</th>
+			<th style="text-align: center">Prompt</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/prompt/002.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/prompt/002.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<table style='width: 100%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Gronud Truth</th>
+			<th style="text-align: center">TransferSinger</th>
+			<th style="text-align: center">w/o SAD</th>
+			<th style="text-align: center">w/o DM</th>
+			<th style="text-align: center">w/o L2</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/gt/002.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/trans/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/sad/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/dm/002.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/se/002.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
