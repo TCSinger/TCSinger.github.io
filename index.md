@@ -590,3 +590,51 @@ Successfully synthesizing the timbre, the articulation method, pronunciation, pi
 </table>
 
 ---
+
+# Style Encoder
+
+In these tests, we utilized the timbre of singer A and the style information of singer B to synthesize results match the timbre of singer A while differing from that of singer B. This outcome evidentially shows that our style encoder successfully decouples timbre and style in the mel spectrogram. 
+
+1.Target: 我 们 这 些 努 力 不 简 单 快 乐 炼 成 泪 水 是 一 种 勇 敢
+
+Successfully synthesizing the timbre of singer A, the pronunciation, pitch transition style, and rhythm of singer B.
+
+<table style='width: 60%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Singer A</th>
+			<th style="text-align: center">Singer B</th>
+			<th style="text-align: center">Result</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/se/demo1/rt.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/se/demo1/rs.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/se/demo1/re.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+2.Target: 这 瞬 眼 的 光 景 最 亲 密 的 距 离 沿 着 你 皮 肤 纹 理
+
+Successfully synthesizing the timbre of singer A, the pronunciation, pitch transition style, and rhythm of singer B.
+
+<table style='width: 60%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Singer A</th>
+			<th style="text-align: center">Singer B</th>
+			<th style="text-align: center">Result</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/se/demo2/rt.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/se/demo2/rs.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/se/demo2/re.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+---
