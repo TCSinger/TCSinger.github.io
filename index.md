@@ -26,7 +26,7 @@ singer similarity, and style controllability across various tasks, including zer
 
 To assess the performance of TCSinger and baseline models in the zero-shot style transfer task, we randomly select singing voices with unseen singers from the test set as target samples and different utterances from the same singers to form prompt samples.
 
-1.Target: 又 站 在 你 家 的 门 口 我 们 重 复 沉 默
+1.Target Word: 又 站 在 你 家 的 门 口 我 们 重 复 沉 默
 
 Prompt: 终 于 你 开 口 向 我 诉 说 她 有 多 温 柔
 
@@ -63,12 +63,12 @@ Successfully transferring the timbre, resonance in pop singing method, mixed voi
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/mega/001.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/rms/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/style/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/trans/001.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/tc/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
 
-2.Target: 我 听 见 雨 滴 落 在 青 青 草 地 SP 我 听 见 远 方 下 课 钟 声 响 起
+2.Target Word: 我 听 见 雨 滴 落 在 青 青 草 地 SP 我 听 见 远 方 下 课 钟 声 响 起
 
 Prompt: 可 是 我 没 有 听 见 你 的 声 音 SP 认 真 呼 唤 我 姓 名
 
@@ -105,12 +105,12 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/mega/002.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/rms/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/style/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/trans/002.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/tc/002.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
 
-3.Target: 也 不 是 真 的 AP 不 会 想 你 AP 全 都 不 是 真 的 AP 是 骗 自 己
+3.Target Word: 也 不 是 真 的 AP 不 会 想 你 AP 全 都 不 是 真 的 AP 是 骗 自 己
 
 Prompt: 让 我 这 样 吧 SP 并 不 是 真 的 AP 路 过 而 已
 
@@ -147,12 +147,12 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/mega/003.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/rms/003.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/style/003.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/trans/003.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/tc/003.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
 
-4.Target: 谁 娶 了 多 愁 善 感 的 你
+4.Target Word: 谁 娶 了 多 愁 善 感 的 你
 
 Prompt: 谁 把 你 的 长 发 盘 起
 
@@ -189,7 +189,90 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/mega/004.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/rms/004.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/style/004.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/trans/004.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/tc/004.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+5.Target Word: settled down that you AP found a girl and you AP
+
+Prompt: I head AP that you are AP
+
+Successfully transferring the timbre, pronunciation, pitch transition style, rhythm, and glissando technique.
+
+<table style='width: 40%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Prompt</th>
+			<th style="text-align: center">Ground Truth</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/prompt/005.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/gt/005.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<table style='width: 100%;'>
+	<thead>
+		<tr>
+      		<th style="text-align: center">YourTTS</th>
+			<th style="text-align: center">Mega-TTS</th>
+			<th style="text-align: center">RMSSinger</th>
+			<th style="text-align: center">StyleSinger</th>
+			<th style="text-align: center">TCSinger</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/yourtts/005.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/mega/005.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/rms/005.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/style/005.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/tc/005.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+6.Target Word: you belong with me belong with me
+
+Prompt: standing by and waiting at your back door SP all this time how could you not know baby
+Successfully transferring the timbre, pronunciation, pitch transition style, rhythm, and vibrato technique.
+
+<table style='width: 40%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Prompt</th>
+			<th style="text-align: center">Ground Truth</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/prompt/006.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/gt/006.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<table style='width: 100%;'>
+	<thead>
+		<tr>
+      		<th style="text-align: center">YourTTS</th>
+			<th style="text-align: center">Mega-TTS</th>
+			<th style="text-align: center">RMSSinger</th>
+			<th style="text-align: center">StyleSinger</th>
+			<th style="text-align: center">TCSinger</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/yourtts/006.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/mega/006.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/rms/006.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/style/006.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/tc/006.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -202,28 +285,28 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 
 In the parallel experiments, we use the GT global style and phoneme-level techniques as the target. 
 
-## Non-Parallel Style Control
+1.Target Word: 你 是 魔 鬼 中 的 天 使 所 以 送 我 心 碎 的 方 式 AP 是 让 我 笑 到 最 后 AP
 
-In the non-parallel experiments, global styles and six techniques are randomly yet appropriately assigned.
+Global Text Prompt (Singing Method and Emotion): bel canto, sad
 
-1.Target: 你 是 魔 鬼 中 的 天 使 所 以 送 我 心 碎 的 方 式 AP 是 让 我 笑 到 最 后
+Phoneme-Level Text Prompt (Technique Sequence): 
+```
+['AP(0)', 'n(1)', 'i(1)', 'sh(1)', 'i(1)', 'm(1)', 'o(1)', 'g(1)', 'uei(1)', 'zh(1)', 'ong(1)', 'd(1)', 'e(6)', 't(1)', 'ian(1)', 'sh(1)', 'i(1)', 's(1,6)', 'uo(1,6)', 'i(1)', 's(1)', 'ong(1)', 'uo(1)', 'x(1)', 'in(1)', 's(1)', 'uei(1)', 'd(1)', 'e(1)', 'f(1)', 'ang(1)', 'sh(1)', 'i(1)', 'AP(0)', 'sh(1)', 'i(1)', 'r(1)', 'ang(1)', 'uo(1)', 'x(1)', 'iao(1)', 'd(1)', 'ao(1)', 'z(1)', 'uei(1)', 'h(1)', 'ou(1)', 'AP(0)']
+```
 
-Timbre Prompt: 争 不 过 朝 夕 又 念 着 往 昔 偷 走 了 青 丝 却 留 住 一 个 你 岁 月 是 一 场 有 去 无 回 的 旅 行
+(0: no technique, 1: mix, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato, 6: glissando)
 
-Text Prompt: tenor bel canto
-
-Successfully synthesizing the timbre, resonance in tenor bel canto singing method, the technique of falsetto and weak mixed voice, the articulation method, pronunciation, pitch transition style, and rhythm.
-
+Successfully control global singing method and emotion, and the phoneme-level techniques of glissando and mixed voice.
 
 <table style='width: 20%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
+      		<th style="text-align: center">Ground Truth</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/prompt/001.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/gt/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -244,28 +327,33 @@ Successfully synthesizing the timbre, resonance in tenor bel canto singing metho
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/mega/001.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/rms/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/style/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/trans/001.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/tc/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
 
-2.Target: AP 我 遇 见 谁 会 有 怎 样 的 对 白 AP 我 等 的 人 他 在 多 远 的 未 来
+2.Target Word: 宁 愿 选 择 留 恋 不 放 手 AP 等 到 风 景 都 看 透 AP 也 许 你 会 陪 我 看 细 水 AP 长 流
 
-Timbre Prompt: AP 你 我 约 定 难 过 的 往 事 不 许 提 AP 也 答 应 永 远 不 让 对 方 担 心
+Global Text Prompt (Singing Method and Emotion): pop, sad
 
-Text Prompt: soprano pop
+Phoneme-Level Text Prompt (Technique Sequence): 
+```
+['n(1)', 'ing(1)', 'van(1)', 'x(1)', 'van(1)', 'z(1)', 'e(1)', 'l(2)', 'iou(2)', 'l(2)', 'ian(2)', 'b(2)', 'u(2)', 'f(2)', 'ang(2)', 'sh(2)', 'ou(2)','AP(0)' 'd(2)', 'eng(2)', 'd(2)', 'ao(2)', 'f(2)', 'eng(2)', 'j(2)', 'ing(2)', 'd(2)', 'ou(2)', 'k(2)', 'an(2)', 't(2)', 'ou(2)','AP(0)', 'ie(2)', 'x(2)', 'v(2)', 'n(12', 'i(2)', 'h(2)', 'uei(2)', 'p(2)', 'ei(2)', 'uo(2)', 'k(2)', 'an(2)', 'x(1)', 'i(1)', 'sh(1)', 'uei(1)', 'AP(0)','ch(1)', 'ang(1)', 'l(1)', 'iou(1)']
+```
 
-Successfully synthesizing the timbre, resonance in soprano pop singing method, the technique of falsetto and weak mixed voice, the articulation method, pronunciation, pitch transition style, and rhythm.
+(0: no technique, 1: mix, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato, 6: glissando)
+
+Successfully control global singing method and emotion, and the phoneme-level techniques of falsetto and mixed voice.
 
 <table style='width: 20%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
+      		<th style="text-align: center">Ground Truth</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/prompt/002.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/gt/002.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -286,57 +374,79 @@ Successfully synthesizing the timbre, resonance in soprano pop singing method, t
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/mega/002.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/rms/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/style/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/trans/002.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/tc/002.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
 
----
+## Non-Parallel Style Control
 
-**We also provide some demos that include only the effects generated by TCSinger using text prompts that incorporate certain techniques.**
+In the non-parallel experiments, global styles and six techniques are randomly yet appropriately assigned.
 
-3.Target: 宁 愿 选 择 留 恋 不 放 手 AP 等 到 风 景 都 看 透 AP 也 许 你 会 陪 我 看 细 水 AP 长 流
+1.Target Word: remember us this way way AP
+Global Text Prompt (Singing Method and Emotion): pop, sad
 
-Timbre Prompt: 永 远 的 爱 我 SP 以 前 的 一 句 话 是 我 们 以 后 的 伤 口
+Phoneme-Level Text Prompt (Technique Sequence): 
+```
+['R(1)', 'IH0(1)', 'M(1)', 'EH1(1)', 'M(1)', 'B(1)', 'ER0(1)', 'AH1(1,5,6)', 'S(1,5,6)', 'DH(1)', 'IH1(1)', 'S(1)', 'W(1,6)', 'EY1(2,6)', 'W(2)', 'EY1(2)', 'AP(0)']
+```
 
-Text Prompt: soprano pop falsetto
+(0: no technique, 1: mix, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato, 6: glissando)
 
-Successfully synthesizing the timbre of the timbre prompt, and refer to the text prompt, successfully synthesizing the resonance in soprano pop singing method and the technique of falsetto.
+Successfully control global singing method and emotion, and the phoneme-level techniques of vibrato, glissando, falsetto, and mixed voice.
 
-<table style='width: 40%;'>
+<table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
+      		<th style="text-align: center">YourTTS</th>
+			<th style="text-align: center">Mega-TTS</th>
+			<th style="text-align: center">RMSSinger</th>
+			<th style="text-align: center">StyleSinger</th>
 			<th style="text-align: center">TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/prompt/003.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/trans/003.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/yourtts/003.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/mega/003.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/rms/003.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/style/003.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/tc/003.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
 
-4.Target: 也 冷 却 了 我 手 中 的 鲜 花
+2.Target Word: SP I remember tears streaming down your face when I sad I'll never let you go AP
 
-Timbre Prompt: 好想再回到那些年的时光 AP 回到教室座位前后 AP
+Global Text Prompt (Singing Method and Emotion): pop, sad
 
-Text Prompt: alto pop vibrato
+Phoneme-Level Text Prompt (Technique Sequence): 
+```
+[['SP(0)', 'AY1(2)', 'R(2)', 'IH0(2)', 'M(2)', 'EH1(2)', 'M(2)', 'B(2)', 'ER0(2)', 'T(2)', 'IH1(2)', 'R(2)', 'Z(2)', 'S(2)', 'T(2)', 'R(2)', 'IY1(2)', 'M(2)', 'IH0(2)', 'NG(2)', 'D(2)', 'AW1(2)', 'N(2)', 'Y(2)', 'UH1(2)', 'R(2)', 'F(2)', 'EY1(2)', 'S(2)', 'HH(1)', 'W(1)', 'EH1(1)', 'N(1)', 'AY1(1)', 'S(1)', 'EH1(1)', 'D(1)', 'AY1(1)', 'L(1)', 'N(1)', 'EH1(1)', 'V(1)', 'ER0(1)', 'L(1)', 'EH1(1)', 'T(1)', 'Y(1)', 'UW1(1)', 'G(1)', 'OW1(1)', 'AP(0)']
 
-Successfully synthesizing the timbre of the timbre prompt, and refer to the text prompt, successfully synthesizing the resonance in soprano pop singing method and the technique of vibrato.
+```
 
-<table style='width: 40%;'>
+(0: no technique, 1: mix, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato, 6: glissando)
+
+Successfully control global singing method and emotion, and the phoneme-level techniques of vibrato, falsetto, and mixed voice.
+
+<table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
+      		<th style="text-align: center">YourTTS</th>
+			<th style="text-align: center">Mega-TTS</th>
+			<th style="text-align: center">RMSSinger</th>
+			<th style="text-align: center">StyleSinger</th>
 			<th style="text-align: center">TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/prompt/004.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/trans/004.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/yourtts/004.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/mega/004.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/rms/004.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/style/004.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/tc/004.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -347,7 +457,7 @@ Successfully synthesizing the timbre of the timbre prompt, and refer to the text
 
 To test the cross-lingual style transfer performance of various models, we alternately use unseen Chinese and English data as prompts and targets for inference, using MOS and SMOS as evaluation criteria.
 
-1.Target: I love you baby SP trust in me when I say
+1.Target Word: I love you baby SP trust in me when I say
 
 Prompt: 让 我 掉 下 眼 泪 的 不 止 昨 夜 的 酒
 
@@ -384,12 +494,12 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/mega/001.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/rms/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/style/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/trans/001.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/tc/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
 
-2.Target: 情 丝 百 转 丝 丝 缠 乱 犹 不 知 
+2.Target Word: 情 丝 百 转 丝 丝 缠 乱 犹 不 知 
 
 Prompt: They've all been said before you know so why don't we AP just play pretend AP
 
@@ -426,7 +536,7 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/mega/002.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/rms/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/style/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/trans/002.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/tc/002.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -439,21 +549,23 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 
 In parallel experiments, we randomly select samples with unseen singers from the test set as targets and different speech from the same singers to form prompts.
 
-1.Target: You make me happy AP when skies are gray
+1.Target Word: You make me happy AP when skies are gray
 
 Prompt: I belive that the heart does go on
 
 Successfully transferring the timbre, pronunciation, pitch transition style, and rhythm.
 
-<table style='width: 20%;'>
+<table style='width: 40%;'>
 	<thead>
 		<tr>
 			<th style="text-align: center">Prompt</th>
+			<th style="text-align: center">Groud Truth</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/prompt/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/gt/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -474,26 +586,28 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/mega/001.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/rms/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/style/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/trans/001.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/tc/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
 
-2.Target: It can happen to anyone of us anyone you think of
+2.Target Word: It can happen to anyone of us anyone you think of
 
 Prompt: And you wonder SP I wonder how I wonder why
 
 Successfully transferring the timbre, the articulation method, pronunciation, pitch transition style, and rhythm.
 
-<table style='width: 20%;'>
+<table style='width: 40%;'>
 	<thead>
 		<tr>
 			<th style="text-align: center">Prompt</th>
+			<th style="text-align: center">Ground Truth</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/prompt/002.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/gt/002.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -514,7 +628,7 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/mega/002.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/rms/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/style/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/trans/002.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/tc/002.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -523,13 +637,93 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 
 In cross-lingual experiments, we select the speech prompt in a different lyric language from the target.
 
+1.Target Word: 想 看 你 笑 AP 想 和 你 闹 AP 想 拥 你 入 我 怀 抱
+
+Prompt: I'm going under SP and this time SP I fear there no one to save me SP
+
+Successfully transferring the timbre, pronunciation, pitch transition style, and rhythm.
+
+<table style='width: 20%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Prompt</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/prompt/003.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<table style='width: 100%;'>
+	<thead>
+		<tr>
+      		<th style="text-align: center">YourTTS</th>
+			<th style="text-align: center">Mega-TTS</th>
+			<th style="text-align: center">RMSSinger</th>
+			<th style="text-align: center">StyleSinger</th>
+			<th style="text-align: center">TCSinger</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/yourtts/003.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/mega/003.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/rms/003.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/style/003.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/tc/003.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+2.Target Word: the song we sang together AP oh yeah AP and oh my love AP
+
+Prompt: 我 全 部 的 心 跳 AP 随 你 跳
+
+Successfully transferring the timbre, pronunciation, pitch transition style, and rhythm.
+
+<table style='width: 20%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Prompt</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/prompt/004.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<table style='width: 100%;'>
+	<thead>
+		<tr>
+      		<th style="text-align: center">YourTTS</th>
+			<th style="text-align: center">Mega-TTS</th>
+			<th style="text-align: center">RMSSinger</th>
+			<th style="text-align: center">StyleSinger</th>
+			<th style="text-align: center">TCSinger</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/yourtts/004.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/mega/004.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/rms/004.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/style/004.wav" type="audio/wav"></audio></td>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/tc/004.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
 ---
 
 # Ablation Study
 
 we undertake ablation studies to showcase the efficacy of various designs incorporated within TCSinger. SAD denotes using the style adaptive decoder or only diffusion decoder, DM means using the duration model in S\&D-LM or using a simple duration predictor of Fastspeech2, and CVQ means using the CVQ model or VQ model in the clustering style encoder.
 
-1.Target: 我 的 背 脊 如 荒 丘 而 你 却 微 笑 摆 首 AP 把 它 当 成 整 个 宇 宙 你 与 太 阳 挥 手 也 同 海 鸥 问 候
+1.Target Word: 我 的 背 脊 如 荒 丘 而 你 却 微 笑 摆 首 AP 把 它 当 成 整 个 宇 宙 你 与 太 阳 挥 手 也 同 海 鸥 问 候
 
 Prompt: 直 到 那 一 天 SP 你 的 衣 衫 破 旧 而 歌 声 却 温 柔 陪 我 漫 无 目 的 的 四 处 漂 流
 
@@ -561,7 +755,7 @@ Successfully synthesizing the timbre, articulation method, pronunciation, pitch 
 	<tbody>
 		<tr>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/gt/001.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/trans/001.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/tc/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/sad/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/dm/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/se/001.wav" type="audio/wav"></audio></td>
@@ -569,7 +763,7 @@ Successfully synthesizing the timbre, articulation method, pronunciation, pitch 
 	</tbody>
 </table>
 
-2.Target: 把 一 个 人 的 温 暖 转 移 到 另 一 个 的 胸 膛 AP 让 上 次 犯 的 错 反 省 出 梦 想 AP 每 个 人 都 是 这 样
+2.Target Word: 把 一 个 人 的 温 暖 转 移 到 另 一 个 的 胸 膛 AP 让 上 次 犯 的 错 反 省 出 梦 想 AP 每 个 人 都 是 这 样
 
 Prompt: 才 能 知 道 伤 感 是 爱 的 遗 产 AP 流 浪 过 几 张 双 人 床 换 过 几 次 信 仰 才 让 戒 指 义 无 反 顾 的 交 换 AP
 
@@ -601,7 +795,7 @@ Successfully synthesizing the timbre, articulation method, pronunciation, pitch 
 	<tbody>
 		<tr>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/gt/002.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/trans/002.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/tc/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/sad/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/dm/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/se/002.wav" type="audio/wav"></audio></td>
@@ -615,7 +809,7 @@ Successfully synthesizing the timbre, articulation method, pronunciation, pitch 
 
 In these tests, we utilized the timbre of singer A and the style information of singer B to synthesize results that match the timbre of singer A while differing from that of singer B.This outcome evidentially shows that our clustering style encoder successfully decouples timbre and style in the mel spectrogram. 
 
-1.Target: 我 们 这 些 努 力 不 简 单 快 乐 炼 成 泪 水 是 一 种 勇 敢
+1.Target Word: 我 们 这 些 努 力 不 简 单 快 乐 炼 成 泪 水 是 一 种 勇 敢
 
 Successfully synthesizing the timbre of singer A, the pronunciation, pitch transition style, and rhythm of singer B.
 
@@ -636,7 +830,7 @@ Successfully synthesizing the timbre of singer A, the pronunciation, pitch trans
 	</tbody>
 </table>
 
-2.Target: 这 瞬 眼 的 光 景 最 亲 密 的 距 离 沿 着 你 皮 肤 纹 理
+2.Target Word: 这 瞬 眼 的 光 景 最 亲 密 的 距 离 沿 着 你 皮 肤 纹 理
 
 Successfully synthesizing the timbre of singer A, the pronunciation, pitch transition style, and rhythm of singer B.
 
