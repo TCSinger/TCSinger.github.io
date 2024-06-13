@@ -423,7 +423,6 @@ Global Text Prompt (Singing Method and Emotion): pop, sad
 Phoneme-Level Text Prompt (Technique Sequence): 
 ```
 [['SP(0)', 'AY1(2)', 'R(2)', 'IH0(2)', 'M(2)', 'EH1(2)', 'M(2)', 'B(2)', 'ER0(2)', 'T(2)', 'IH1(2)', 'R(2)', 'Z(2)', 'S(2)', 'T(2)', 'R(2)', 'IY1(2)', 'M(2)', 'IH0(2)', 'NG(2)', 'D(2)', 'AW1(2)', 'N(2)', 'Y(2)', 'UH1(2)', 'R(2)', 'F(2)', 'EY1(2)', 'S(2)', 'HH(1)', 'W(1)', 'EH1(1)', 'N(1)', 'AY1(1)', 'S(1)', 'EH1(1)', 'D(1)', 'AY1(1)', 'L(1)', 'N(1)', 'EH1(1)', 'V(1)', 'ER0(1)', 'L(1)', 'EH1(1)', 'T(1)', 'Y(1)', 'UW1(1)', 'G(1)', 'OW1(1)', 'AP(0)']
-
 ```
 
 (0: no technique, 1: mix, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato, 6: glissando)
