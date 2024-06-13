@@ -14,6 +14,8 @@ and 3) the style adaptive decoder using a novel mel-style adaptive normalization
 Experimental results show that TCSinger outperforms baseline models in synthesis quality, 
 singer similarity, and style controllability across various tasks, including zero-shot style transfer, multi-level style control, cross-lingual style transfer, and speech-to-singing style transfer.
 
+![arch](./arch.jpg)
+
 ---
 
 **Note：** The audio on this GitHub page may load slowly and could pause momentarily at around the 2-second mark.Thank you for your patience.
