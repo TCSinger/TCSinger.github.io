@@ -291,7 +291,7 @@ Global Text Prompt (Singing Method and Emotion): bel canto, sad
 
 Phoneme-Level Text Prompt (Technique Sequence): 
 ```
-['AP(0)', 'n(1)', 'i(1)', 'sh(1)', 'i(1)', 'm(1)', 'o(1)', 'g(1)', 'uei(1)', 'zh(1)', 'ong(1)', 'd(1)', 'e(6)', 't(1)', 'ian(1)', 'sh(1)', 'i(1)', 's(1,6)', 'uo(1,6)', 'i(1)', 's(1)', 'ong(1)', 'uo(1)', 'x(1)', 'in(1)', 's(1)', 'uei(1)', 'd(1)', 'e(1)', 'f(1)', 'ang(1)', 'sh(1)', 'i(1)', 'AP(0)', 'sh(1)', 'i(1)', 'r(1)', 'ang(1)', 'uo(1)', 'x(1)', 'iao(1)', 'd(1)', 'ao(1)', 'z(1)', 'uei(1)', 'h(1)', 'ou(1)', 'AP(0)']
+['AP(0)', 'n(1)', 'i(1)', 'sh(1)', 'i(1)', 'm(1)', 'o(1)', 'g(1)', 'uei(1)', 'zh(1)', 'ong(1)', 'd(1)', 'e(1)', 't(1)', 'ian(1)', 'sh(1)', 'i(1)', 's(1)', 'uo(1)', 'i(1)', 's(1)', 'ong(1)', 'uo(1)', 'x(1)', 'in(1)', 's(1)', 'uei(1)', 'd(1)', 'e(1)', 'f(1)', 'ang(1)', 'sh(1)', 'i(1)', 'AP(0)', 'sh(1)', 'i(1)', 'r(1)', 'ang(1)', 'uo(1)', 'x(1)', 'iao(1)', 'd(1)', 'ao(1)', 'z(1)', 'uei(1)', 'h(1)', 'ou(1)', 'AP(0)']
 ```
 
 (0: no technique, 1: mix, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato, 6: glissando)
@@ -636,9 +636,9 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 
 In cross-lingual experiments, we select the speech prompt in a different lyric language from the target.
 
-1.Target Word: 想 看 你 笑 AP 想 和 你 闹 AP 想 拥 你 入 我 怀 抱
+1.Target Word: 当 花 瓣 离 开 花 朵 AP 暗 香
 
-Prompt: I'm going under SP and this time SP I fear there no one to save me SP
+Prompt: it can happen to anyone of us
 
 Successfully transferring the timbre, pronunciation, pitch transition style, and rhythm.
 
@@ -676,7 +676,7 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 	</tbody>
 </table>
 
-2.Target Word: the song we sang together AP oh yeah AP and oh my love AP
+2.Target Word: the song we sang together AP oh yeah AP
 
 Prompt: 我 全 部 的 心 跳 AP 随 你 跳
 
