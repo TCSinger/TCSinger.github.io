@@ -5,26 +5,26 @@
 # Abstract
 
 Zero-shot singing voice synthesis (SVS) with style transfer and style control aims to generate high-quality singing voices with unseen timbres and styles (including singing method, emotion, rhythm, techniques, and pronunciation) from audio and text prompts. 
-However, the multifaceted nature of singing voice styles poses a significant challenge for comprehensive modeling and effective transfer and control. 
-Furthermore, existing SVS models often fail to generate singing voices with a wealth of stylistic nuances for unseen singers. 
-In this paper, we introduce TCSinger, a novel zero-shot SVS model that primarily employs three modules to address these challenges: 
-1) the clustering style encoder that employs a clustering vector quantization (CVQ) model to condense style information into a compact latent space, thus facilitating subsequent predictions;
-2) the Style and Duration Language Model (S\&D-LM), which concurrently predicts style information and phoneme duration, thereby enhancing both, and the S\&D-LM uses audio and text prompts to conduct both style transfer and style control;
-and 3) the style adaptive decoder using a novel mel-style adaptive normalization method to generate singing voices with enhanced details.
-Experimental results show that TCSinger outperforms baseline models in synthesis quality, 
-singer similarity, and style controllability across various tasks, including zero-shot style transfer, multi-level style control, cross-lingual style transfer, and speech-to-singing style transfer.
+However, the multifaceted nature of singing styles poses a significant challenge for comprehensive modeling and effective transfer and control. 
+Furthermore, existing SVS models often fail to generate singing voices with many stylistic nuances for unseen singers. 
+In this paper, we introduce TCSinger, the first zero-shot SVS model for style transfer across cross-lingual speech and singing styles, along with multi-level style control.
+Specifically, TCSinger designs three primary modules:
+1) the clustering style encoder employs a clustering vector quantization (CVQ) model to condense style information into a compact latent space;
+2) the Style and Duration Language Model (S\&D-LM) concurrently predicts style information and phoneme duration, which benefits both;
+3) the style adaptive decoder uses a novel mel-style adaptive normalization method to generate singing voices with enhanced details.
+Experimental results show that TCSinger outperforms baseline models in synthesis quality, singer similarity, and style controllability across various tasks, including zero-shot style transfer, multi-level style control, cross-lingual style transfer, and speech-to-singing style transfer.
 
 ![arch](./arch.jpg)
 
 ---
 
-**Note：** The audio on this GitHub page may load slowly and could pause momentarily at around the 2-second mark.Thank you for your patience.
+**Note：** We conduct all tasks in the zero-shot scenario, with training and testing on cross-lingual speech and singing data.
 
 ---
 
 # Zero-Shot Style Transfer
 
-To assess the performance of TCSinger and baseline models in the zero-shot style transfer task, we randomly select singing voices with unseen singers from the test set as target samples and different utterances from the same singers to form prompt samples.
+To assess the performance of TCSinger and baseline models in the zero-shot style transfer task, we randomly select samples with unseen singers from the test set as targets and different utterances from the same singers to form prompts.
 
 1.Target Word: 又 站 在 你 家 的 门 口 我 们 重 复 沉 默
 
@@ -50,18 +50,18 @@ Successfully transferring the timbre, resonance in pop singing method, mixed voi
 <table style='width: 100%;'>
 	<thead>
 		<tr>
+			<th style="text-align: center">Styler</th>
       		<th style="text-align: center">YourTTS</th>
 			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 			<th style="text-align: center">TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/styler/001.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/yourtts/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/mega/001.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/rms/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/style/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/tc/001.wav" type="audio/wav"></audio></td>
 		</tr>
@@ -92,18 +92,18 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 100%;'>
 	<thead>
 		<tr>
+			<th style="text-align: center">Styler</th>
       		<th style="text-align: center">YourTTS</th>
 			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 			<th style="text-align: center">TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/styler/002.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/yourtts/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/mega/002.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/rms/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/style/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/tc/002.wav" type="audio/wav"></audio></td>
 		</tr>
@@ -134,18 +134,18 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 100%;'>
 	<thead>
 		<tr>
+			<th style="text-align: center">Styler</th>
       		<th style="text-align: center">YourTTS</th>
 			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 			<th style="text-align: center">TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/styler/003.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/yourtts/003.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/mega/003.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/rms/003.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/style/003.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/tc/003.wav" type="audio/wav"></audio></td>
 		</tr>
@@ -176,18 +176,18 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 100%;'>
 	<thead>
 		<tr>
+			<th style="text-align: center">Styler</th>
       		<th style="text-align: center">YourTTS</th>
 			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 			<th style="text-align: center">TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/styler/004.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/yourtts/004.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/mega/004.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/rms/004.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/style/004.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/tc/004.wav" type="audio/wav"></audio></td>
 		</tr>
@@ -218,18 +218,18 @@ Successfully transferring the timbre, pronunciation, pitch transition style, rhy
 <table style='width: 100%;'>
 	<thead>
 		<tr>
+			<th style="text-align: center">Styler</th>
       		<th style="text-align: center">YourTTS</th>
 			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 			<th style="text-align: center">TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/styler/005.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/yourtts/005.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/mega/005.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/rms/005.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/style/005.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/tc/005.wav" type="audio/wav"></audio></td>
 		</tr>
@@ -259,18 +259,18 @@ Successfully transferring the timbre, pronunciation, pitch transition style, rhy
 <table style='width: 100%;'>
 	<thead>
 		<tr>
+			<th style="text-align: center">Styler</th>
       		<th style="text-align: center">YourTTS</th>
 			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 			<th style="text-align: center">TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/styler/006.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/yourtts/006.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/mega/006.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/rms/006.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/style/006.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/tc/006.wav" type="audio/wav"></audio></td>
 		</tr>
@@ -281,9 +281,15 @@ Successfully transferring the timbre, pronunciation, pitch transition style, rhy
 
 # Multi-Level Style Control
 
+We add global and phoneme-level text embedding to each baseline model to enable style control. 
+Then, we compare TCSinger using multi-level text prompts.
+We conduct both parallel and non-parallel experiments according to the target styles.
+For global styles, we specify singing methods (bel canto and pop) and emotions (happy and sad) for each test target. 
+For phoneme-level styles, we select zero, one or more specific techniques (mixed voice, falsetto, breathy, vibrato, glissando, and pharyngeal) for each phoneme of target content. 
+
 ## Parallel Style Control
 
-In the parallel experiments, we use the GT global style and phoneme-level techniques as the target. 
+In the parallel experiments, we randomly select unseen audio from the test set, using the GT global style and phoneme-level techniques as the target. 
 
 1.Target Word: 你 是 魔 鬼 中 的 天 使 所 以 送 我 心 碎 的 方 式 AP 是 让 我 笑 到 最 后 AP
 
@@ -314,18 +320,18 @@ Successfully control global singing method and emotion, and the phoneme-level te
 <table style='width: 100%;'>
 	<thead>
 		<tr>
+			<th style="text-align: center">Styler</th>
       		<th style="text-align: center">YourTTS</th>
 			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 			<th style="text-align: center">TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/styler/001.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/yourtts/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/mega/001.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/rms/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/style/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/tc/001.wav" type="audio/wav"></audio></td>
 		</tr>
@@ -361,18 +367,18 @@ Successfully control global singing method and emotion, and the phoneme-level te
 <table style='width: 100%;'>
 	<thead>
 		<tr>
+			<th style="text-align: center">Styler</th>
       		<th style="text-align: center">YourTTS</th>
 			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 			<th style="text-align: center">TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/styler/002.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/yourtts/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/mega/002.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/rms/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/style/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/tc/002.wav" type="audio/wav"></audio></td>
 		</tr>
@@ -398,18 +404,18 @@ Successfully control global singing method and emotion, and the phoneme-level te
 <table style='width: 100%;'>
 	<thead>
 		<tr>
+			<th style="text-align: center">Styler</th>
       		<th style="text-align: center">YourTTS</th>
 			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 			<th style="text-align: center">TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/styler/003.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/yourtts/003.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/mega/003.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/rms/003.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/style/003.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/tc/003.wav" type="audio/wav"></audio></td>
 		</tr>
@@ -432,18 +438,18 @@ Successfully control global singing method and emotion, and the phoneme-level te
 <table style='width: 100%;'>
 	<thead>
 		<tr>
+			<th style="text-align: center">Styler</th>
       		<th style="text-align: center">YourTTS</th>
 			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 			<th style="text-align: center">TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/styler/004.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/yourtts/004.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/mega/004.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/rms/004.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/style/004.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/tc/004.wav" type="audio/wav"></audio></td>
 		</tr>
@@ -454,7 +460,7 @@ Successfully control global singing method and emotion, and the phoneme-level te
 
 # Cross-Lingual Style Transfer
 
-To test the cross-lingual style transfer performance of various models, we alternately use unseen Chinese and English data as prompts and targets for inference, using MOS and SMOS as evaluation criteria.
+To test the zero-shot cross-lingual style transfer performance of various models, we use unseen test data with different lyrics' languages as prompts and targets for inference (like English and Chinese).
 
 1.Target Word: I love you baby SP trust in me when I say
 
@@ -480,18 +486,18 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 <table style='width: 100%;'>
 	<thead>
 		<tr>
+			<th style="text-align: center">Styler</th>
       		<th style="text-align: center">YourTTS</th>
 			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 			<th style="text-align: center">TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/styler/001.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/yourtts/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/mega/001.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/rms/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/style/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/tc/001.wav" type="audio/wav"></audio></td>
 		</tr>
@@ -522,18 +528,18 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 <table style='width: 100%;'>
 	<thead>
 		<tr>
+			<th style="text-align: center">Styler</th>
       		<th style="text-align: center">YourTTS</th>
 			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 			<th style="text-align: center">TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
+     			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/styler/002.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/yourtts/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/mega/002.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/rms/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/style/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/tc/002.wav" type="audio/wav"></audio></td>
 		</tr>
@@ -543,6 +549,8 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 ---
 
 # Speech-to-Singing Style Transfer
+
+We conducted experiments on both parallel and cross-lingual speech-to-singing style transfer. 
 
 ## Parallel Speech-to-Singing Style Transfer
 
@@ -572,18 +580,18 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 100%;'>
 	<thead>
 		<tr>
+			<th style="text-align: center">Styler</th>
       		<th style="text-align: center">YourTTS</th>
 			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 			<th style="text-align: center">TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/styler/001.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/yourtts/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/mega/001.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/rms/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/style/001.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/tc/001.wav" type="audio/wav"></audio></td>
 		</tr>
@@ -614,18 +622,18 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 <table style='width: 100%;'>
 	<thead>
 		<tr>
+			<th style="text-align: center">Styler</th>
       		<th style="text-align: center">YourTTS</th>
 			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 			<th style="text-align: center">TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/styler/002.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/yourtts/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/mega/002.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/rms/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/style/002.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/tc/002.wav" type="audio/wav"></audio></td>
 		</tr>
@@ -634,7 +642,7 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 
 ## Cross-Lingual Speech-to-Singing Style Transfer
 
-In cross-lingual experiments, we select the speech prompt in a different lyric language from the target.
+In cross-lingual experiments, we select the speech prompt in a different lyric language from the target (such as Chinese and English).
 
 1.Target Word: 当 花 瓣 离 开 花 朵 AP 暗 香
 
@@ -658,18 +666,18 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 100%;'>
 	<thead>
 		<tr>
+			<th style="text-align: center">Styler</th>
       		<th style="text-align: center">YourTTS</th>
 			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 			<th style="text-align: center">TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/styler/003.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/yourtts/003.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/mega/003.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/rms/003.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/style/003.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/tc/003.wav" type="audio/wav"></audio></td>
 		</tr>
@@ -698,18 +706,18 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 100%;'>
 	<thead>
 		<tr>
+			<th style="text-align: center">Styler</th>
       		<th style="text-align: center">YourTTS</th>
 			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 			<th style="text-align: center">TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
+				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/styler/004.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/yourtts/004.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/mega/004.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/rms/004.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/style/004.wav" type="audio/wav"></audio></td>
 				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/tc/004.wav" type="audio/wav"></audio></td>
 		</tr>
@@ -720,7 +728,8 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 
 # Ablation Study
 
-we undertake ablation studies to showcase the efficacy of various designs incorporated within TCSinger. SAD denotes using the style adaptive decoder or only diffusion decoder, DM means using the duration model in S\&D-LM or using a simple duration predictor of Fastspeech2, and CVQ means using the CVQ model or VQ model in the clustering style encoder.
+we undertake ablation studies to showcase the efficacy of various designs incorporated within TCSinger. 
+SAD denotes using the style adaptive decoder or only diffusion decoder, DM means using the duration model in S\&D-LM or using a simple duration predictor of Fastspeech2, and CVQ means using the CVQ model or VQ model in the clustering style encoder.
 
 1.Target Word: 我 的 背 脊 如 荒 丘 而 你 却 微 笑 摆 首 AP 把 它 当 成 整 个 宇 宙 你 与 太 阳 挥 手 也 同 海 鸥 问 候
 
@@ -806,7 +815,8 @@ Successfully synthesizing the timbre, articulation method, pronunciation, pitch 
 
 # Clustering Style Encoder
 
-In these tests, we utilized the timbre of singer A and the style information of singer B to synthesize results that match the timbre of singer A while differing from that of singer B.This outcome evidentially shows that our clustering style encoder successfully decouples timbre and style in the mel spectrogram. 
+In these tests, we utilized the timbre of singer A and the style information of singer B to synthesize results that match the timbre of singer A while differing from that of singer B.
+This outcome evidentially shows that our clustering style encoder successfully decouples timbre and style in the mel spectrogram. 
 
 1.Target Word: 我 们 这 些 努 力 不 简 单 快 乐 炼 成 泪 水 是 一 种 勇 敢
 
