@@ -5,10 +5,10 @@
 # Abstract
 
 Zero-shot singing voice synthesis (SVS) with style transfer and style control aims to generate high-quality singing voices with unseen timbres and styles (including singing method, emotion, rhythm, techniques, and pronunciation) from audio and text prompts. 
-However, the multifaceted nature of singing styles poses a significant challenge for comprehensive modeling and effective transfer and control. 
+However, the multifaceted nature of singing styles poses a significant challenge for comprehensive modeling and effective transfer or control. 
 Furthermore, existing SVS models often fail to generate singing voices with many stylistic nuances for unseen singers. 
 In this paper, we introduce TCSinger, the first zero-shot SVS model for style transfer across cross-lingual speech and singing styles, along with multi-level style control.
-Specifically, TCSinger designs three primary modules:
+Specifically, TCSinger primarily designs three modules:
 1) the clustering style encoder employs a clustering vector quantization (CVQ) model to condense style information into a compact latent space;
 2) the Style and Duration Language Model (S\&D-LM) concurrently predicts style information and phoneme duration, which benefits both;
 3) the style adaptive decoder uses a novel mel-style adaptive normalization method to generate singing voices with enhanced details.
