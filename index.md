@@ -11,7 +11,11 @@ Furthermore, current SVS models often fail to generate singing voices rich in st
 
 ---
 
-**Note：** We conduct all tasks in the zero-shot scenario, with training and testing on cross-lingual speech and singing data.
+**Note：** We conduct all tasks in the zero-shot scenario, with training and testing on cross-lingual speech and singing data. 
+
+---
+
+**Dataset**: For the dataset, we have included a portion of the dataset in the data attachment submitted with the paper. The complete version will be released once the paper is accepted. 
 
 ---
 
@@ -852,5 +856,16 @@ Successfully synthesizing the timbre of singer A, the pronunciation, pitch trans
 		</tr>
 	</tbody>
 </table>
+
+---
+
+# Style Control Extended Experiments 
+
+---
+
+# RMSSinger experiments
+
+In these tests, we utilized the timbre of singer A and the style information of singer B to synthesize results that match the timbre of singer A while differing from that of singer B.
+This outcome evidentially shows that our clustering style encoder successfully decouples timbre and style in the mel spectrogram. 
 
 ---
