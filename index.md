@@ -861,11 +861,100 @@ Successfully synthesizing the timbre of singer A, the pronunciation, pitch trans
 
 # Style Control Extended Experiments 
 
+In these tests, we compare different text prompts to show the controllability of TCSinger.
+
+
+
 ---
 
 # RMSSinger experiments
 
-In these tests, we utilized the timbre of singer A and the style information of singer B to synthesize results that match the timbre of singer A while differing from that of singer B.
-This outcome evidentially shows that our clustering style encoder successfully decouples timbre and style in the mel spectrogram. 
+In these tests, we utilized RMSSinger, the best traditional SVS model with spk embedding for evaluation.  
+
+## Zero-Shot Style Transfer
+
+Target Word: 
+
+Prompt: 
+
+TCSinger successfully transfers the timbre, and resonance in pop singing method, mixed voice technique, pronunciation, rhythm, and pitch transition style.
+
+<table style='width: 80%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Prompt</th>
+			<th style="text-align: center">Ground Truth</th>
+			<th style="text-align: center">RMSSinger</th>
+			<th style="text-align: center">TCSinger</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/prompt/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/gt/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/rms/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/tc/001.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+## Speech-to-Singing Style Transfer
+
+Target Word: 
+
+Prompt: 
+
+TCSinger successfully transfers the timbre, and resonance in pop singing method, mixed voice technique, pronunciation, rhythm, and pitch transition style.
+
+<table style='width: 80%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Prompt</th>
+			<th style="text-align: center">Ground Truth</th>
+			<th style="text-align: center">RMSSinger</th>
+			<th style="text-align: center">TCSinger</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/prompt/002.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/gt/002.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/rms/002.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/tc/002.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+## Multi-level Style Control
+
+Target Word: 
+
+Global Text Prompt (Singing Method and Emotion): bel canto, sad
+
+Phoneme-Level Text Prompt (Technique Sequence): 
+```
+['AP(0)', 'n(1)', 'i(1)', 'sh(1)', 'i(1)', 'm(1)', 'o(1)', 'g(1)', 'uei(1)', 'zh(1)', 'ong(1)', 'd(1)', 'e(1)', 't(1)', 'ian(1)', 'sh(1)', 'i(1)', 's(1)', 'uo(1)', 'i(1)', 's(1)', 'ong(1)', 'uo(1)', 'x(1)', 'in(1)', 's(1)', 'uei(1)', 'd(1)', 'e(1)', 'f(1)', 'ang(1)', 'sh(1)', 'i(1)', 'AP(0)', 'sh(1)', 'i(1)', 'r(1)', 'ang(1)', 'uo(1)', 'x(1)', 'iao(1)', 'd(1)', 'ao(1)', 'z(1)', 'uei(1)', 'h(1)', 'ou(1)', 'AP(0)']
+```
+
+(0: no technique, 1: mix, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato, 6: glissando)
+
+Successfully control global singing method and emotion, and the phoneme-level techniques of glissando and mixed voice.
+
+<table style='width: 60%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Ground Truth</th>
+			<th style="text-align: center">RMSSinger</th>
+			<th style="text-align: center">TCSinger</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/gt/003.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/rms/003.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/tc/003.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
 
 ---
