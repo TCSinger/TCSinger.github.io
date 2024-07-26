@@ -873,11 +873,11 @@ In these tests, we utilized RMSSinger, the best traditional SVS model with spk e
 
 ## Zero-Shot Style Transfer
 
-Target Word: 
+1.Target Word: 说 什 么 情 深 似 海 我 却 不 敢 当 <AP> 最 浪 漫 不 过 与 你 一 起 并 肩 看 夕 阳 我 心 之 所 向
 
-Prompt: 
+Prompt: <AP> 原 来 所 谓 爱 情 <AP> 是 这 模 样 <AP> 就 承 认 一 笑 倾 城 一 见 自 难 忘 <AP>
 
-TCSinger successfully transfers the timbre, and resonance in pop singing method, mixed voice technique, pronunciation, rhythm, and pitch transition style.
+TCSinger successfully transfers the timbre, and resonance in pop singing method, pronunciation, rhythm, and pitch transition style.
 
 <table style='width: 80%;'>
 	<thead>
@@ -898,13 +898,11 @@ TCSinger successfully transfers the timbre, and resonance in pop singing method,
 	</tbody>
 </table>
 
-## Speech-to-Singing Style Transfer
+2.Target Word: <AP> 我 是 只 化 身 孤 岛 的 蓝 鲸 有 着 最 巨 大 的 身 影 <AP> 鱼 虾 在 身 侧 穿 行
 
-Target Word: 
+Prompt: 而 大 海 太 平 太 静 多 少 故 事 无 人 倾 听 <AP> 我 爱 地 中 海 的 天 晴
 
-Prompt: 
-
-TCSinger successfully transfers the timbre, and resonance in pop singing method, mixed voice technique, pronunciation, rhythm, and pitch transition style.
+TCSinger successfully transfers the timbre, and resonance in pop singing method, pronunciation, rhythm, and pitch transition style.
 
 <table style='width: 80%;'>
 	<thead>
@@ -927,7 +925,7 @@ TCSinger successfully transfers the timbre, and resonance in pop singing method,
 
 ## Multi-level Style Control
 
-Target Word: 
+1.Target Word: 
 
 Global Text Prompt (Singing Method and Emotion): bel canto, sad
 
@@ -953,6 +951,88 @@ Successfully control global singing method and emotion, and the phoneme-level te
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/gt/003.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/rms/003.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/tc/003.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+2.Target Word: 
+
+Global Text Prompt (Singing Method and Emotion): bel canto, sad
+
+Phoneme-Level Text Prompt (Technique Sequence): 
+```
+['AP(0)', 'n(1)', 'i(1)', 'sh(1)', 'i(1)', 'm(1)', 'o(1)', 'g(1)', 'uei(1)', 'zh(1)', 'ong(1)', 'd(1)', 'e(1)', 't(1)', 'ian(1)', 'sh(1)', 'i(1)', 's(1)', 'uo(1)', 'i(1)', 's(1)', 'ong(1)', 'uo(1)', 'x(1)', 'in(1)', 's(1)', 'uei(1)', 'd(1)', 'e(1)', 'f(1)', 'ang(1)', 'sh(1)', 'i(1)', 'AP(0)', 'sh(1)', 'i(1)', 'r(1)', 'ang(1)', 'uo(1)', 'x(1)', 'iao(1)', 'd(1)', 'ao(1)', 'z(1)', 'uei(1)', 'h(1)', 'ou(1)', 'AP(0)']
+```
+
+(0: no technique, 1: mix, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato, 6: glissando)
+
+Successfully control global singing method and emotion, and the phoneme-level techniques of glissando and mixed voice.
+
+<table style='width: 60%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Ground Truth</th>
+			<th style="text-align: center">RMSSinger</th>
+			<th style="text-align: center">TCSinger</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/gt/004.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/rms/004.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/tc/004.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+## Speech-to-Singing Style Transfer
+
+1.Target Word: 说 什 么 情 深 似 海 我 却 不 敢 当 <AP> 最 浪 漫 不 过 与 你 一 起 并 肩 看 夕 阳 我 心 之 所 向
+
+Prompt: <AP> 原 来 所 谓 爱 情 <AP> 是 这 模 样 <AP> 就 承 认 一 笑 倾 城 一 见 自 难 忘 <AP>
+
+TCSinger successfully transfers the timbre, and resonance in pop singing method, pronunciation, rhythm, and pitch transition style.
+
+<table style='width: 80%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Prompt</th>
+			<th style="text-align: center">Ground Truth</th>
+			<th style="text-align: center">RMSSinger</th>
+			<th style="text-align: center">TCSinger</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/prompt/005.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/gt/005.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/rms/005.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/tc/005.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+2.Target Word: 说 什 么 情 深 似 海 我 却 不 敢 当 <AP> 最 浪 漫 不 过 与 你 一 起 并 肩 看 夕 阳 我 心 之 所 向
+
+Prompt: <AP> 原 来 所 谓 爱 情 <AP> 是 这 模 样 <AP> 就 承 认 一 笑 倾 城 一 见 自 难 忘 <AP>
+
+TCSinger successfully transfers the timbre, and resonance in pop singing method, pronunciation, rhythm, and pitch transition style.
+
+<table style='width: 80%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Prompt</th>
+			<th style="text-align: center">Ground Truth</th>
+			<th style="text-align: center">RMSSinger</th>
+			<th style="text-align: center">TCSinger</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/prompt/006.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/gt/006.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/rms/006.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/tc/006.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
