@@ -15,7 +15,7 @@ Furthermore, current SVS models often fail to generate singing voices rich in st
 
 ---
 
-**Dataset**: For the dataset, we have included a portion of the dataset in the data attachment submitted with the paper. The complete version will be released once the paper is accepted. 
+**Dataset**: https://huggingface.co/datasets/TCSinger/TCSinger. For the dataset, we have included a portion of the dataset in the data attachment submitted with the paper. The complete version will be released once the paper is accepted. 
 
 ---
 
