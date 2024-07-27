@@ -987,11 +987,11 @@ Successfully control global singing method and emotion, and the phoneme-level te
 
 ## Speech-to-Singing Style Transfer
 
-1.Target Word: 说 什 么 情 深 似 海 我 却 不 敢 当 <AP> 最 浪 漫 不 过 与 你 一 起 并 肩 看 夕 阳 我 心 之 所 向
+1.Target Word: I don't care if I know
 
-Prompt: <AP> 原 来 所 谓 爱 情 <AP> 是 这 模 样 <AP> 就 承 认 一 笑 倾 城 一 见 自 难 忘 <AP>
+Prompt: city of stars
 
-TCSinger successfully transfers the timbre, and resonance in pop singing method, pronunciation, rhythm, and pitch transition style.
+TCSinger successfully transfers the timbre, pronunciation, pitch transition style, and rhythm.
 
 <table style='width: 80%;'>
 	<thead>
@@ -1011,30 +1011,3 @@ TCSinger successfully transfers the timbre, and resonance in pop singing method,
 		</tr>
 	</tbody>
 </table>
-
-2.Target Word: 说 什 么 情 深 似 海 我 却 不 敢 当 <AP> 最 浪 漫 不 过 与 你 一 起 并 肩 看 夕 阳 我 心 之 所 向
-
-Prompt: <AP> 原 来 所 谓 爱 情 <AP> 是 这 模 样 <AP> 就 承 认 一 笑 倾 城 一 见 自 难 忘 <AP>
-
-TCSinger successfully transfers the timbre, and resonance in pop singing method, pronunciation, rhythm, and pitch transition style.
-
-<table style='width: 80%;'>
-	<thead>
-		<tr>
-			<th style="text-align: center">Prompt</th>
-			<th style="text-align: center">Ground Truth</th>
-			<th style="text-align: center">RMSSinger</th>
-			<th style="text-align: center">TCSinger</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/prompt/006.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/gt/006.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/rms/006.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/tc/006.wav" type="audio/wav"></audio></td>
-		</tr>
-	</tbody>
-</table>
-
----
