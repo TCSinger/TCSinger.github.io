@@ -32,14 +32,14 @@ Successfully transferring the timbre, resonance in pop singing method, mixed voi
 <table style='width: 40%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
-			<th style="text-align: center">Ground Truth</th>
+			<th style='text-align: center'>Prompt</th>
+			<th style='text-align: center'>Ground Truth</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/prompt/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/gt/001.wav" type="audio/wav"></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/prompt/001.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/gt/001.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -47,20 +47,20 @@ Successfully transferring the timbre, resonance in pop singing method, mixed voi
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Styler</th>
-      		<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">StyleSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Styler</th>
+      		<th style='text-align: center'>YourTTS</th>
+			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>StyleSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/styler/001.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/yourtts/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/mega/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/style/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/tc/001.wav" type="audio/wav"></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/styler/001.wav' type='audio/wav'></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/yourtts/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mega/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/style/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/tc/001.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -74,14 +74,14 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 40%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
-			<th style="text-align: center">Ground Truth</th>
+			<th style='text-align: center'>Prompt</th>
+			<th style='text-align: center'>Ground Truth</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/prompt/002.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/gt/002.wav" type="audio/wav"></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/prompt/002.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/gt/002.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -89,20 +89,20 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Styler</th>
-      		<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">StyleSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Styler</th>
+      		<th style='text-align: center'>YourTTS</th>
+			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>StyleSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/styler/002.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/yourtts/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/mega/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/style/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/tc/002.wav" type="audio/wav"></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/styler/002.wav' type='audio/wav'></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/yourtts/002.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mega/002.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/style/002.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/tc/002.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -116,14 +116,14 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 40%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
-			<th style="text-align: center">Ground Truth</th>
+			<th style='text-align: center'>Prompt</th>
+			<th style='text-align: center'>Ground Truth</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/prompt/003.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/gt/003.wav" type="audio/wav"></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/prompt/003.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/gt/003.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -131,20 +131,20 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Styler</th>
-      		<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">StyleSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Styler</th>
+      		<th style='text-align: center'>YourTTS</th>
+			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>StyleSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/styler/003.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/yourtts/003.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/mega/003.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/style/003.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/tc/003.wav" type="audio/wav"></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/styler/003.wav' type='audio/wav'></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/yourtts/003.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mega/003.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/style/003.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/tc/003.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -158,14 +158,14 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 40%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
-			<th style="text-align: center">Ground Truth</th>
+			<th style='text-align: center'>Prompt</th>
+			<th style='text-align: center'>Ground Truth</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/prompt/004.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/gt/004.wav" type="audio/wav"></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/prompt/004.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/gt/004.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -173,20 +173,20 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Styler</th>
-      		<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">StyleSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Styler</th>
+      		<th style='text-align: center'>YourTTS</th>
+			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>StyleSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/styler/004.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/yourtts/004.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/mega/004.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/style/004.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/tc/004.wav" type="audio/wav"></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/styler/004.wav' type='audio/wav'></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/yourtts/004.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mega/004.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/style/004.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/tc/004.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -200,14 +200,14 @@ Successfully transferring the timbre, pronunciation, pitch transition style, rhy
 <table style='width: 40%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
-			<th style="text-align: center">Ground Truth</th>
+			<th style='text-align: center'>Prompt</th>
+			<th style='text-align: center'>Ground Truth</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/prompt/005.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/gt/005.wav" type="audio/wav"></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/prompt/005.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/gt/005.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -215,20 +215,20 @@ Successfully transferring the timbre, pronunciation, pitch transition style, rhy
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Styler</th>
-      		<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">StyleSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Styler</th>
+      		<th style='text-align: center'>YourTTS</th>
+			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>StyleSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/styler/005.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/yourtts/005.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/mega/005.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/style/005.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/tc/005.wav" type="audio/wav"></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/styler/005.wav' type='audio/wav'></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/yourtts/005.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mega/005.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/style/005.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/tc/005.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -241,14 +241,14 @@ Successfully transferring the timbre, pronunciation, pitch transition style, rhy
 <table style='width: 40%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
-			<th style="text-align: center">Ground Truth</th>
+			<th style='text-align: center'>Prompt</th>
+			<th style='text-align: center'>Ground Truth</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/prompt/006.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/gt/006.wav" type="audio/wav"></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/prompt/006.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/gt/006.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -256,20 +256,20 @@ Successfully transferring the timbre, pronunciation, pitch transition style, rhy
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Styler</th>
-      		<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">StyleSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Styler</th>
+      		<th style='text-align: center'>YourTTS</th>
+			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>StyleSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/styler/006.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/yourtts/006.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/mega/006.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/style/006.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/svs/tc/006.wav" type="audio/wav"></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/styler/006.wav' type='audio/wav'></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/yourtts/006.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mega/006.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/style/006.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/tc/006.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -304,12 +304,12 @@ Successfully control global singing method and emotion, and the phoneme-level te
 <table style='width: 20%;'>
 	<thead>
 		<tr>
-      		<th style="text-align: center">Ground Truth</th>
+      		<th style='text-align: center'>Ground Truth</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/gt/001.wav" type="audio/wav"></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/gt/001.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -317,20 +317,20 @@ Successfully control global singing method and emotion, and the phoneme-level te
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Styler</th>
-      		<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">StyleSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Styler</th>
+      		<th style='text-align: center'>YourTTS</th>
+			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>StyleSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/styler/001.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/yourtts/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/mega/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/style/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/tc/001.wav" type="audio/wav"></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/styler/001.wav' type='audio/wav'></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/yourtts/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/mega/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/style/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/tc/001.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -351,12 +351,12 @@ Successfully control global singing method and emotion, and the phoneme-level te
 <table style='width: 20%;'>
 	<thead>
 		<tr>
-      		<th style="text-align: center">Ground Truth</th>
+      		<th style='text-align: center'>Ground Truth</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/gt/002.wav" type="audio/wav"></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/gt/002.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -364,20 +364,20 @@ Successfully control global singing method and emotion, and the phoneme-level te
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Styler</th>
-      		<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">StyleSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Styler</th>
+      		<th style='text-align: center'>YourTTS</th>
+			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>StyleSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/styler/002.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/yourtts/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/mega/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/style/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/tc/002.wav" type="audio/wav"></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/styler/002.wav' type='audio/wav'></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/yourtts/002.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/mega/002.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/style/002.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/tc/002.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -401,20 +401,20 @@ Successfully control global singing method and emotion, and the phoneme-level te
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Styler</th>
-      		<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">StyleSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Styler</th>
+      		<th style='text-align: center'>YourTTS</th>
+			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>StyleSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/styler/003.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/yourtts/003.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/mega/003.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/style/003.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/tc/003.wav" type="audio/wav"></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/styler/003.wav' type='audio/wav'></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/yourtts/003.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/mega/003.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/style/003.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/tc/003.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -435,20 +435,20 @@ Successfully control global singing method and emotion, and the phoneme-level te
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Styler</th>
-      		<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">StyleSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Styler</th>
+      		<th style='text-align: center'>YourTTS</th>
+			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>StyleSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/styler/004.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/yourtts/004.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/mega/004.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/style/004.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/text/tc/004.wav" type="audio/wav"></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/styler/004.wav' type='audio/wav'></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/yourtts/004.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/mega/004.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/style/004.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/tc/004.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -470,12 +470,12 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 <table style='width: 20%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
+			<th style='text-align: center'>Prompt</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/prompt/001.wav" type="audio/wav"></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/prompt/001.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -483,20 +483,20 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Styler</th>
-      		<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">StyleSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Styler</th>
+      		<th style='text-align: center'>YourTTS</th>
+			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>StyleSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/styler/001.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/yourtts/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/mega/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/style/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/tc/001.wav" type="audio/wav"></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/styler/001.wav' type='audio/wav'></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/yourtts/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/mega/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/style/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/tc/001.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -512,12 +512,12 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 <table style='width: 20%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
+			<th style='text-align: center'>Prompt</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/prompt/002.wav" type="audio/wav"></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/prompt/002.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -525,20 +525,20 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Styler</th>
-      		<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">StyleSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Styler</th>
+      		<th style='text-align: center'>YourTTS</th>
+			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>StyleSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-     			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/styler/002.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/yourtts/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/mega/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/style/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/cross/tc/002.wav" type="audio/wav"></audio></td>
+     			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/styler/002.wav' type='audio/wav'></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/yourtts/002.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/mega/002.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/style/002.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/tc/002.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -562,14 +562,14 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 40%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
-			<th style="text-align: center">Groud Truth</th>
+			<th style='text-align: center'>Prompt</th>
+			<th style='text-align: center'>Groud Truth</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/prompt/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/gt/001.wav" type="audio/wav"></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/prompt/001.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/gt/001.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -577,20 +577,20 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Styler</th>
-      		<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">StyleSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Styler</th>
+      		<th style='text-align: center'>YourTTS</th>
+			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>StyleSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/styler/001.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/yourtts/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/mega/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/style/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/tc/001.wav" type="audio/wav"></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/styler/001.wav' type='audio/wav'></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/yourtts/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/mega/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/style/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/tc/001.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -604,14 +604,14 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 <table style='width: 40%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
-			<th style="text-align: center">Ground Truth</th>
+			<th style='text-align: center'>Prompt</th>
+			<th style='text-align: center'>Ground Truth</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/prompt/002.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/gt/002.wav" type="audio/wav"></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/prompt/002.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/gt/002.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -619,20 +619,20 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Styler</th>
-      		<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">StyleSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Styler</th>
+      		<th style='text-align: center'>YourTTS</th>
+			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>StyleSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/styler/002.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/yourtts/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/mega/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/style/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/tc/002.wav" type="audio/wav"></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/styler/002.wav' type='audio/wav'></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/yourtts/002.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/mega/002.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/style/002.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/tc/002.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -650,12 +650,12 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 20%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
+			<th style='text-align: center'>Prompt</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/prompt/003.wav" type="audio/wav"></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/prompt/003.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -663,20 +663,20 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Styler</th>
-      		<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">StyleSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Styler</th>
+      		<th style='text-align: center'>YourTTS</th>
+			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>StyleSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/styler/003.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/yourtts/003.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/mega/003.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/style/003.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/tc/003.wav" type="audio/wav"></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/styler/003.wav' type='audio/wav'></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/yourtts/003.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/mega/003.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/style/003.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/tc/003.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -690,12 +690,12 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 20%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
+			<th style='text-align: center'>Prompt</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/prompt/004.wav" type="audio/wav"></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/prompt/004.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -703,20 +703,20 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Styler</th>
-      		<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Mega-TTS</th>
-			<th style="text-align: center">StyleSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Styler</th>
+      		<th style='text-align: center'>YourTTS</th>
+			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>StyleSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/styler/004.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/yourtts/004.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/mega/004.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/style/004.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/sts/tc/004.wav" type="audio/wav"></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/styler/004.wav' type='audio/wav'></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/yourtts/004.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/mega/004.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/style/004.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/tc/004.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -737,12 +737,12 @@ Successfully synthesizing the timbre, articulation method, pronunciation, pitch 
 <table style='width: 20%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
+			<th style='text-align: center'>Prompt</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/prompt/001.wav" type="audio/wav"></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/abl/prompt/001.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -750,20 +750,20 @@ Successfully synthesizing the timbre, articulation method, pronunciation, pitch 
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Gronud Truth</th>
-			<th style="text-align: center">TCSinger</th>
-			<th style="text-align: center">w/o SAD</th>
-			<th style="text-align: center">w/o DM</th>
-			<th style="text-align: center">w/o CVQ</th>
+			<th style='text-align: center'>Gronud Truth</th>
+			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>w/o SAD</th>
+			<th style='text-align: center'>w/o DM</th>
+			<th style='text-align: center'>w/o CVQ</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/gt/001.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/tc/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/sad/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/dm/001.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/se/001.wav" type="audio/wav"></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/abl/gt/001.wav' type='audio/wav'></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/abl/tc/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/abl/sad/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/abl/dm/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/abl/se/001.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -777,12 +777,12 @@ Successfully synthesizing the timbre, articulation method, pronunciation, pitch 
 <table style='width: 20%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
+			<th style='text-align: center'>Prompt</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/prompt/002.wav" type="audio/wav"></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/abl/prompt/002.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -790,20 +790,20 @@ Successfully synthesizing the timbre, articulation method, pronunciation, pitch 
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Gronud Truth</th>
-			<th style="text-align: center">TCSinger</th>
-			<th style="text-align: center">w/o SAD</th>
-			<th style="text-align: center">w/o DM</th>
-			<th style="text-align: center">w/o CVQ</th>
+			<th style='text-align: center'>Gronud Truth</th>
+			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>w/o SAD</th>
+			<th style='text-align: center'>w/o DM</th>
+			<th style='text-align: center'>w/o CVQ</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/gt/002.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/tc/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/sad/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/dm/002.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/abl/se/002.wav" type="audio/wav"></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/abl/gt/002.wav' type='audio/wav'></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/abl/tc/002.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/abl/sad/002.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/abl/dm/002.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/abl/se/002.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -822,16 +822,16 @@ Successfully synthesizing the timbre of singer A, the pronunciation, pitch trans
 <table style='width: 60%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Singer A</th>
-			<th style="text-align: center">Singer B</th>
-			<th style="text-align: center">Result</th>
+			<th style='text-align: center'>Singer A</th>
+			<th style='text-align: center'>Singer B</th>
+			<th style='text-align: center'>Result</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/se/demo1/rt.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/se/demo1/rs.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/se/demo1/re.wav" type="audio/wav"></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/se/demo1/rt.wav' type='audio/wav'></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/se/demo1/rs.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/se/demo1/re.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -843,16 +843,16 @@ Successfully synthesizing the timbre of singer A, the pronunciation, pitch trans
 <table style='width: 60%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Singer A</th>
-			<th style="text-align: center">Singer B</th>
-			<th style="text-align: center">Result</th>
+			<th style='text-align: center'>Singer A</th>
+			<th style='text-align: center'>Singer B</th>
+			<th style='text-align: center'>Result</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/se/demo2/rt.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/se/demo2/rs.wav" type="audio/wav"></audio></td>
-				<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/se/demo2/re.wav" type="audio/wav"></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/se/demo2/rt.wav' type='audio/wav'></audio></td>
+      			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/se/demo2/rs.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/se/demo2/re.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -873,114 +873,114 @@ In these tests, we utilized RMSSinger, the best traditional SVS model with spk e
 
 ## Zero-Shot Style Transfer
 
-1.Target Word: 说 什 么 情 深 似 海 我 却 不 敢 当 <AP> 最 浪 漫 不 过 与 你 一 起 并 肩 看 夕 阳 我 心 之 所 向
+1.Target Word: 说 什 么 情 深 似 海 我 却 不 敢 当 AP 最 浪 漫 不 过 与 你 一 起 并 肩 看 夕 阳 我 心 之 所 向
 
-Prompt: <AP> 原 来 所 谓 爱 情 <AP> 是 这 模 样 <AP> 就 承 认 一 笑 倾 城 一 见 自 难 忘 <AP>
+Prompt: AP 原 来 所 谓 爱 情 AP 是 这 模 样 AP 就 承 认 一 笑 倾 城 一 见 自 难 忘 AP
 
 TCSinger successfully transfers the timbre, and resonance in pop singing method, pronunciation, rhythm, and pitch transition style.
 
 <table style='width: 80%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
-			<th style="text-align: center">Ground Truth</th>
-			<th style="text-align: center">RMSSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Prompt</th>
+			<th style='text-align: center'>Ground Truth</th>
+			<th style='text-align: center'>RMSSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/prompt/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/gt/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/rms/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/tc/001.wav" type="audio/wav"></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/prompt/001.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/gt/001.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/rms/001.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/tc/001.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
 
-2.Target Word: <AP> 我 是 只 化 身 孤 岛 的 蓝 鲸 有 着 最 巨 大 的 身 影 <AP> 鱼 虾 在 身 侧 穿 行
+2.Target Word: AP 我 是 只 化 身 孤 岛 的 蓝 鲸 有 着 最 巨 大 的 身 影 AP 鱼 虾 在 身 侧 穿 行
 
-Prompt: 而 大 海 太 平 太 静 多 少 故 事 无 人 倾 听 <AP> 我 爱 地 中 海 的 天 晴
+Prompt: 而 大 海 太 平 太 静 多 少 故 事 无 人 倾 听 AP 我 爱 地 中 海 的 天 晴
 
 TCSinger successfully transfers the timbre, and resonance in pop singing method, pronunciation, rhythm, and pitch transition style.
 
 <table style='width: 80%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
-			<th style="text-align: center">Ground Truth</th>
-			<th style="text-align: center">RMSSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Prompt</th>
+			<th style='text-align: center'>Ground Truth</th>
+			<th style='text-align: center'>RMSSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/prompt/002.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/gt/002.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/rms/002.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/tc/002.wav" type="audio/wav"></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/prompt/002.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/gt/002.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/rms/002.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/tc/002.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
 
 ## Multi-level Style Control
 
-1.Target Word: 
+1.Target Word: SP 向 左 SP 向 右 向 前 看 SP 爱 要 拐 几 个 弯 才 来 SP
 
-Global Text Prompt (Singing Method and Emotion): bel canto, sad
+Global Text Prompt (Singing Method and Emotion): pop, sad
 
 Phoneme-Level Text Prompt (Technique Sequence): 
 ```
-['AP(0)', 'n(1)', 'i(1)', 'sh(1)', 'i(1)', 'm(1)', 'o(1)', 'g(1)', 'uei(1)', 'zh(1)', 'ong(1)', 'd(1)', 'e(1)', 't(1)', 'ian(1)', 'sh(1)', 'i(1)', 's(1)', 'uo(1)', 'i(1)', 's(1)', 'ong(1)', 'uo(1)', 'x(1)', 'in(1)', 's(1)', 'uei(1)', 'd(1)', 'e(1)', 'f(1)', 'ang(1)', 'sh(1)', 'i(1)', 'AP(0)', 'sh(1)', 'i(1)', 'r(1)', 'ang(1)', 'uo(1)', 'x(1)', 'iao(1)', 'd(1)', 'ao(1)', 'z(1)', 'uei(1)', 'h(1)', 'ou(1)', 'AP(0)']
+ ['SP(0)','x(1)','iang(1)','z(0)','uo(0)','SP(0)','x(2)','iang(2)','iou(2,6)','x(2)','iang(2,6)','q(2)','ian(2)','k(2)','an(2,6)','SP(0)','ai(0)','iao(0)','g(0)','uai(0)','j(0)','i(0)','g(0)','e(0)','uan(0)','c(0)','ai(6)','l(0)','ai(0)','SP(0)']
 ```
 
 (0: no technique, 1: mix, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato, 6: glissando)
 
-Successfully control global singing method and emotion, and the phoneme-level techniques of glissando and mixed voice.
+Successfully control global singing method and emotion, and the phoneme-level techniques of glissando and falsetto.
 
 <table style='width: 60%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Ground Truth</th>
-			<th style="text-align: center">RMSSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Ground Truth</th>
+			<th style='text-align: center'>RMSSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/gt/003.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/rms/003.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/tc/003.wav" type="audio/wav"></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/gt/003.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/rms/003.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/tc/003.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
 
-2.Target Word: 
+2.Target Word: AP 你 唤 醒 了 我 的 耳 朵 哦 带 走 我 AP
 
 Global Text Prompt (Singing Method and Emotion): bel canto, sad
 
 Phoneme-Level Text Prompt (Technique Sequence): 
 ```
-['AP(0)', 'n(1)', 'i(1)', 'sh(1)', 'i(1)', 'm(1)', 'o(1)', 'g(1)', 'uei(1)', 'zh(1)', 'ong(1)', 'd(1)', 'e(1)', 't(1)', 'ian(1)', 'sh(1)', 'i(1)', 's(1)', 'uo(1)', 'i(1)', 's(1)', 'ong(1)', 'uo(1)', 'x(1)', 'in(1)', 's(1)', 'uei(1)', 'd(1)', 'e(1)', 'f(1)', 'ang(1)', 'sh(1)', 'i(1)', 'AP(0)', 'sh(1)', 'i(1)', 'r(1)', 'ang(1)', 'uo(1)', 'x(1)', 'iao(1)', 'd(1)', 'ao(1)', 'z(1)', 'uei(1)', 'h(1)', 'ou(1)', 'AP(0)']
+['AP(0),'n(1)','i(1)','h(1)','uan(1)','x(1)','ing(1)','l(1)','e(1)','uo(1)','d(1)','e(1)','er(1)','d(1)','uo(1,6)','o(1)','d(1)','ai(1,6)','z(1)','ou(1,5,6)','AP(0)']
 ```
 
 (0: no technique, 1: mix, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato, 6: glissando)
 
-Successfully control global singing method and emotion, and the phoneme-level techniques of glissando and mixed voice.
+Successfully control global singing method and emotion, and the phoneme-level techniques of vibrato and mixed voice.
 
 <table style='width: 60%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Ground Truth</th>
-			<th style="text-align: center">RMSSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Ground Truth</th>
+			<th style='text-align: center'>RMSSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/gt/004.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/rms/004.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/tc/004.wav" type="audio/wav"></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/gt/004.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/rms/004.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/tc/004.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -996,18 +996,44 @@ TCSinger successfully transfers the timbre, pronunciation, pitch transition styl
 <table style='width: 80%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Prompt</th>
-			<th style="text-align: center">Ground Truth</th>
-			<th style="text-align: center">RMSSinger</th>
-			<th style="text-align: center">TCSinger</th>
+			<th style='text-align: center'>Prompt</th>
+			<th style='text-align: center'>Ground Truth</th>
+			<th style='text-align: center'>RMSSinger</th>
+			<th style='text-align: center'>TCSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/prompt/005.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/gt/005.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/rms/005.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/rms/tc/005.wav" type="audio/wav"></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/prompt/005.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/gt/005.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/rms/005.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/tc/005.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
+
+2.Target Word: I'm turning my head up and down
+
+Prompt: yesterday you told me about the blue blue sky
+
+TCSinger successfully transfers the timbre, pronunciation, pitch transition style, and rhythm.
+
+<table style='width: 80%;'>
+	<thead>
+		<tr>
+			<th style='text-align: center'>Prompt</th>
+			<th style='text-align: center'>Ground Truth</th>
+			<th style='text-align: center'>RMSSinger</th>
+			<th style='text-align: center'>TCSinger</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/prompt/006.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/gt/006.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/rms/006.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/tc/006.wav' type='audio/wav'></audio></td>
+		</tr>
+	</tbody>
+</table>
+
