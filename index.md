@@ -892,8 +892,7 @@ Obviously, TCSinger can control different techniques for each phoneme.
 
 1.Phoneme-Level Text Prompt (Technique Sequence): 
 ```
- ['uei(1)','l(1)','e(1)','ai(1)','g(1)','u(1)','j(1)','vn(1)','f(1)','en(1)','d(1)','ou(1)','AP(0)','z(1)','ao(1)','j(1)','iou(1)','ch(1)','i(1)','g(1)','ou(1)','l(1)','e(1)','ai(1)','q(1)','ing(1)','d(1)','e(1)','k(1)','u(1)']
-
+['uei(1)','l(1)','e(1)','ai(1)','g(1)','u(1)','j(1)','vn(1)','f(1)','en(1)','d(1)','ou(1)','AP(0)','z(1)','ao(1)','j(1)','iou(1)','ch(1)','i(1)','g(1)','ou(1)','l(1)','e(1)','ai(1)','q(1)','ing(1)','d(1)','e(1)','k(1)','u(1)']
 ```
 
 (0: no technique, 1: mix, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato, 6: glissando)
@@ -913,8 +912,7 @@ Obviously, TCSinger can control different techniques for each phoneme.
 
 2.Phoneme-Level Text Prompt (Technique Sequence): 
 ```
- ['uei(3)','l(3)','e(3)','ai(3)','g(3)','u(3)','j(3)','vn(3)','f(3)','en(3)','d(3)','ou(3)','AP(0)','z(3)','ao(3)','j(3)','iou(3)','ch(3)','i(3)','g(3)','ou(3)','l(3)','e(3)','ai(3)','q(3)','ing(3)','d(3)','e(3)','k(3)','u(3)']
-
+['uei(3)','l(3)','e(3)','ai(3)','g(3)','u(3)','j(3)','vn(3)','f(3)','en(3)','d(3)','ou(3)','AP(0)','z(3)','ao(3)','j(3)','iou(3)','ch(3)','i(3)','g(3)','ou(3)','l(3)','e(3)','ai(3)','q(3)','ing(3)','d(3)','e(3)','k(3)','u(3)']
 ```
 
 (0: no technique, 1: mix, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato, 6: glissando)
@@ -934,8 +932,7 @@ Obviously, TCSinger can control different techniques for each phoneme.
 
 3.Phoneme-Level Text Prompt (Technique Sequence): 
 ```
- ['uei(0)','l(0)','e(0)','ai(0)','g(1)','u(1)','j(1)','vn(1)','f(1)','en(1)','d(1)','ou(1)','AP(0)','z(0)','ao(0)','j(0)','iou(0)','ch(0)','i(0)','g(0)','ou(0)','l(2)','e(2)','ai(2)','q(2)','ing(2)','d(2)','e(2)','k(2)','u(2)']
-
+['uei(0)','l(0)','e(0)','ai(0)','g(1)','u(1)','j(1)','vn(1)','f(1)','en(1)','d(1)','ou(1)','AP(0)','z(0)','ao(0)','j(0)','iou(0)','ch(0)','i(0)','g(0)','ou(0)','l(2)','e(2)','ai(2)','q(2)','ing(2)','d(2)','e(2)','k(2)','u(2)']
 ```
 
 (0: no technique, 1: mix, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato, 6: glissando)
@@ -955,8 +952,7 @@ Obviously, TCSinger can control different techniques for each phoneme.
 
 4.Phoneme-Level Text Prompt (Technique Sequence): 
 ```
- ['uei(0)','l(0)','e(0)','ai(0)','g(3)','u(3)','j(3)','vn(3)','f(3)','en(3)','d(3)','ou(3)','AP(0)','z(0)','ao(0)','j(0)','iou(0)','ch(0)','i(0)','g(0)','ou(0)','l(0)','e(0)','ai(3)','q(3)','ing(3)','d(3)','e(3)','k(3)','u(3)']
-
+['uei(0)','l(0)','e(0)','ai(0)','g(3)','u(3)','j(3)','vn(3)','f(3)','en(3)','d(3)','ou(3)','AP(0)','z(0)','ao(0)','j(0)','iou(0)','ch(0)','i(0)','g(0)','ou(0)','l(0)','e(0)','ai(3)','q(3)','ing(3)','d(3)','e(3)','k(3)','u(3)']
 ```
 
 (0: no technique, 1: mix, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato, 6: glissando)
@@ -1040,7 +1036,7 @@ Global Text Prompt (Singing Method and Emotion): pop, sad
 
 Phoneme-Level Text Prompt (Technique Sequence): 
 ```
- ['SP(0)','x(1)','iang(1)','z(0)','uo(0)','SP(0)','x(2)','iang(2)','iou(2,6)','x(2)','iang(2,6)','q(2)','ian(2)','k(2)','an(2,6)','SP(0)','ai(0)','iao(0)','g(0)','uai(0)','j(0)','i(0)','g(0)','e(0)','uan(0)','c(0)','ai(6)','l(0)','ai(0)','SP(0)']
+['SP(0)','x(1)','iang(1)','z(0)','uo(0)','SP(0)','x(2)','iang(2)','iou(2,6)','x(2)','iang(2,6)','q(2)','ian(2)','k(2)','an(2,6)','SP(0)','ai(0)','iao(0)','g(0)','uai(0)','j(0)','i(0)','g(0)','e(0)','uan(0)','c(0)','ai(6)','l(0)','ai(0)','SP(0)']
 ```
 
 (0: no technique, 1: mix, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato, 6: glissando)
