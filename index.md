@@ -5,7 +5,7 @@
 # Abstract
 
 Zero-shot singing voice synthesis (SVS) with style transfer and style control aims to generate high-quality singing voices with unseen timbres and styles (including singing method, emotion, rhythm, technique, and pronunciation) from audio and text prompts. However, the multifaceted nature of singing styles poses a significant challenge for effective modeling, transfer, and control. 
-Furthermore, current SVS models often fail to generate singing voices rich in stylistic nuances for unseen singers. To address these challenges, we introduce TCSinger, the first zero-shot SVS model for style transfer across cross-lingual speech and singing styles, along with multi-level style control. Specifically, TCSinger proposes three primary modules: 1) the clustering style encoder employs a clustering vector quantization model to stably condense style information into a compact latent space; 2) the Style and Duration Language Model (S\&D-LM) concurrently predicts style information and phoneme duration, which benefits both; 3) the style adaptive decoder uses a novel mel-style adaptive normalization method to generate singing voices with enhanced details. Experimental results show that TCSinger outperforms baseline models in synthesis quality, singer similarity, and style controllability across various tasks, including zero-shot style transfer, multi-level style control, cross-lingual style transfer, and speech-to-singing style transfer.
+Furthermore, current SVS models often fail to generate singing voices rich in stylistic nuances for unseen singers. To address these challenges, we introduce StyleSinger2, the first zero-shot SVS model for style transfer across cross-lingual speech and singing styles, along with multi-level style control. Specifically, StyleSinger2 proposes three primary modules: 1) the clustering style encoder employs a clustering vector quantization model to stably condense style information into a compact latent space; 2) the Style and Duration Language Model (S\&D-LM) concurrently predicts style information and phoneme duration, which benefits both; 3) the style adaptive decoder uses a novel mel-style adaptive normalization method to generate singing voices with enhanced details. Experimental results show that StyleSinger2 outperforms baseline models in synthesis quality, singer similarity, and style controllability across various tasks, including zero-shot style transfer, multi-level style control, cross-lingual style transfer, and speech-to-singing style transfer.
 
 ![arch](./arch.jpg)
 
@@ -15,13 +15,9 @@ Furthermore, current SVS models often fail to generate singing voices rich in st
 
 ---
 
-**Dataset**: https://huggingface.co/datasets/TCSinger/TCSinger. For the dataset, we have included a portion of the dataset in the data attachment submitted with the paper. The complete version will be released once the paper is accepted. 
-
----
-
 # Zero-Shot Style Transfer
 
-To assess the performance of TCSinger and baseline models in the zero-shot style transfer task, we randomly select samples with unseen singers from the test set as targets and different utterances from the same singers to form prompts.
+To assess the performance of StyleSinger2 and baseline models in the zero-shot style transfer task, we randomly select samples with unseen singers from the test set as targets and different utterances from the same singers to form prompts.
 
 1.Target Word: 又 站 在 你 家 的 门 口 我 们 重 复 沉 默
 
@@ -51,7 +47,7 @@ Successfully transferring the timbre, resonance in pop singing method, mixed voi
 		<th style='text-align: center'>YourTTS</th>
 			<th style='text-align: center'>Mega-TTS</th>
 			<th style='text-align: center'>StyleSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -93,7 +89,7 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 		<th style='text-align: center'>YourTTS</th>
 			<th style='text-align: center'>Mega-TTS</th>
 			<th style='text-align: center'>StyleSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -135,7 +131,7 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 		<th style='text-align: center'>YourTTS</th>
 			<th style='text-align: center'>Mega-TTS</th>
 			<th style='text-align: center'>StyleSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -177,7 +173,7 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 		<th style='text-align: center'>YourTTS</th>
 			<th style='text-align: center'>Mega-TTS</th>
 			<th style='text-align: center'>StyleSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -219,7 +215,7 @@ Successfully transferring the timbre, pronunciation, pitch transition style, rhy
 		<th style='text-align: center'>YourTTS</th>
 			<th style='text-align: center'>Mega-TTS</th>
 			<th style='text-align: center'>StyleSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -260,7 +256,7 @@ Successfully transferring the timbre, pronunciation, pitch transition style, rhy
 		<th style='text-align: center'>YourTTS</th>
 			<th style='text-align: center'>Mega-TTS</th>
 			<th style='text-align: center'>StyleSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -279,7 +275,7 @@ Successfully transferring the timbre, pronunciation, pitch transition style, rhy
 # Multi-Level Style Control
 
 We add global and phoneme-level text embedding to each baseline model to enable style control. 
-Then, we compare TCSinger using multi-level text prompts.
+Then, we compare StyleSinger2 using multi-level text prompts.
 We conduct both parallel and non-parallel experiments according to the target styles.
 For global styles, we specify singing methods (bel canto and pop) and emotions (happy and sad) for each test target. 
 For phoneme-level styles, we select none, one or more specific techniques (mixed voice, falsetto, breathy, vibrato, glissando, and pharyngeal) for each phoneme of target content. 
@@ -321,7 +317,7 @@ Successfully control global singing method and emotion, and the phoneme-level te
 		<th style='text-align: center'>YourTTS</th>
 			<th style='text-align: center'>Mega-TTS</th>
 			<th style='text-align: center'>StyleSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -368,7 +364,7 @@ Successfully control global singing method and emotion, and the phoneme-level te
 		<th style='text-align: center'>YourTTS</th>
 			<th style='text-align: center'>Mega-TTS</th>
 			<th style='text-align: center'>StyleSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -405,7 +401,7 @@ Successfully control global singing method and emotion, and the phoneme-level te
 		<th style='text-align: center'>YourTTS</th>
 			<th style='text-align: center'>Mega-TTS</th>
 			<th style='text-align: center'>StyleSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -439,7 +435,7 @@ Successfully control global singing method and emotion, and the phoneme-level te
 		<th style='text-align: center'>YourTTS</th>
 			<th style='text-align: center'>Mega-TTS</th>
 			<th style='text-align: center'>StyleSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -487,7 +483,7 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 		<th style='text-align: center'>YourTTS</th>
 			<th style='text-align: center'>Mega-TTS</th>
 			<th style='text-align: center'>StyleSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -529,7 +525,7 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 		<th style='text-align: center'>YourTTS</th>
 			<th style='text-align: center'>Mega-TTS</th>
 			<th style='text-align: center'>StyleSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -581,7 +577,7 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 		<th style='text-align: center'>YourTTS</th>
 			<th style='text-align: center'>Mega-TTS</th>
 			<th style='text-align: center'>StyleSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -623,7 +619,7 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 		<th style='text-align: center'>YourTTS</th>
 			<th style='text-align: center'>Mega-TTS</th>
 			<th style='text-align: center'>StyleSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -667,7 +663,7 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 		<th style='text-align: center'>YourTTS</th>
 			<th style='text-align: center'>Mega-TTS</th>
 			<th style='text-align: center'>StyleSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -707,7 +703,7 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 		<th style='text-align: center'>YourTTS</th>
 			<th style='text-align: center'>Mega-TTS</th>
 			<th style='text-align: center'>StyleSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -725,7 +721,7 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 
 # Ablation Study
 
-we undertake ablation studies to showcase the efficacy of various designs incorporated within TCSinger. 
+we undertake ablation studies to showcase the efficacy of various designs incorporated within StyleSinger2. 
 SAD denotes using the style adaptive decoder or only diffusion decoder, DM means using the duration model in S\&D-LM or using a simple duration predictor of Fastspeech2, and CVQ means using the CVQ model or VQ model in the clustering style encoder.
 
 1.Target Word: 我 的 背 脊 如 荒 丘 而 你 却 微 笑 摆 首 AP 把 它 当 成 整 个 宇 宙 你 与 太 阳 挥 手 也 同 海 鸥 问 候
@@ -751,7 +747,7 @@ Successfully synthesizing the timbre, articulation method, pronunciation, pitch 
 	<thead>
 		<tr>
 			<th style='text-align: center'>Gronud Truth</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 			<th style='text-align: center'>w/o SAD</th>
 			<th style='text-align: center'>w/o DM</th>
 			<th style='text-align: center'>w/o CVQ</th>
@@ -791,7 +787,7 @@ Successfully synthesizing the timbre, articulation method, pronunciation, pitch 
 	<thead>
 		<tr>
 			<th style='text-align: center'>Gronud Truth</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 			<th style='text-align: center'>w/o SAD</th>
 			<th style='text-align: center'>w/o DM</th>
 			<th style='text-align: center'>w/o CVQ</th>
@@ -861,13 +857,13 @@ Successfully synthesizing the timbre of singer A, the pronunciation, pitch trans
 
 # Style Control Extended Experiments 
 
-In these tests, we compare different text prompts to show TCSinger's controllability.
+In these tests, we compare different text prompts to show StyleSinger2's controllability.
 
 ## Emotion Difference
 
 Target Word: 东 汉 末 年 分 三 国 SP 烽 火 连 天 不 休
 
-Obviously, TCSinger can control different emotions.
+Obviously, StyleSinger2 can control different emotions.
 
 <table style='width: 40%;'>
 	<thead>
@@ -888,7 +884,7 @@ Obviously, TCSinger can control different emotions.
 
 Target Word: 为 了 爱 孤 军 奋 斗 AP 早 就 吃 够 了 爱 情 的 苦
 
-Obviously, TCSinger can control different techniques for each phoneme.
+Obviously, StyleSinger2 can control different techniques for each phoneme.
 
 1.Phoneme-Level Text Prompt (Technique Sequence): 
 ```
@@ -900,7 +896,7 @@ Obviously, TCSinger can control different techniques for each phoneme.
 <table style='width: 20%;'>
 	<thead>
 		<tr>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -920,7 +916,7 @@ Obviously, TCSinger can control different techniques for each phoneme.
 <table style='width: 20%;'>
 	<thead>
 		<tr>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -940,7 +936,7 @@ Obviously, TCSinger can control different techniques for each phoneme.
  <table style='width: 20%;'>
 	<thead>
 		<tr>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -960,7 +956,7 @@ Obviously, TCSinger can control different techniques for each phoneme.
  <table style='width: 20%;'>
 	<thead>
 		<tr>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -982,7 +978,7 @@ In these tests, we utilized RMSSinger, the best traditional SVS model with spk e
 
 Prompt: AP 原 来 所 谓 爱 情 AP 是 这 模 样 AP 就 承 认 一 笑 倾 城 一 见 自 难 忘 AP
 
-TCSinger successfully transfers the timbre, and resonance in pop singing method, pronunciation, rhythm, and pitch transition style.
+StyleSinger2 successfully transfers the timbre, and resonance in pop singing method, pronunciation, rhythm, and pitch transition style.
 
 <table style='width: 80%;'>
 	<thead>
@@ -990,7 +986,7 @@ TCSinger successfully transfers the timbre, and resonance in pop singing method,
 			<th style='text-align: center'>Prompt</th>
 			<th style='text-align: center'>Ground Truth</th>
 			<th style='text-align: center'>RMSSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1007,7 +1003,7 @@ TCSinger successfully transfers the timbre, and resonance in pop singing method,
 
 Prompt: 而 大 海 太 平 太 静 多 少 故 事 无 人 倾 听 AP 我 爱 地 中 海 的 天 晴
 
-TCSinger successfully transfers the timbre, and resonance in pop singing method, pronunciation, rhythm, and pitch transition style.
+StyleSinger2 successfully transfers the timbre, and resonance in pop singing method, pronunciation, rhythm, and pitch transition style.
 
 <table style='width: 80%;'>
 	<thead>
@@ -1015,7 +1011,7 @@ TCSinger successfully transfers the timbre, and resonance in pop singing method,
 			<th style='text-align: center'>Prompt</th>
 			<th style='text-align: center'>Ground Truth</th>
 			<th style='text-align: center'>RMSSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1048,7 +1044,7 @@ Successfully control global singing method and emotion, and the phoneme-level te
 		<tr>
 			<th style='text-align: center'>Ground Truth</th>
 			<th style='text-align: center'>RMSSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1078,7 +1074,7 @@ Successfully control global singing method and emotion, and the phoneme-level te
 		<tr>
 			<th style='text-align: center'>Ground Truth</th>
 			<th style='text-align: center'>RMSSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1096,7 +1092,7 @@ Successfully control global singing method and emotion, and the phoneme-level te
 
 Prompt: city of stars
 
-TCSinger successfully transfers the timbre, pronunciation, pitch transition style, and rhythm.
+StyleSinger2 successfully transfers the timbre, pronunciation, pitch transition style, and rhythm.
 
 <table style='width: 80%;'>
 	<thead>
@@ -1104,7 +1100,7 @@ TCSinger successfully transfers the timbre, pronunciation, pitch transition styl
 			<th style='text-align: center'>Prompt</th>
 			<th style='text-align: center'>Ground Truth</th>
 			<th style='text-align: center'>RMSSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1121,7 +1117,7 @@ TCSinger successfully transfers the timbre, pronunciation, pitch transition styl
 
 Prompt: yesterday you told me about the blue blue sky
 
-TCSinger successfully transfers the timbre, pronunciation, pitch transition style, and rhythm.
+StyleSinger2 successfully transfers the timbre, pronunciation, pitch transition style, and rhythm.
 
 <table style='width: 80%;'>
 	<thead>
@@ -1129,7 +1125,7 @@ TCSinger successfully transfers the timbre, pronunciation, pitch transition styl
 			<th style='text-align: center'>Prompt</th>
 			<th style='text-align: center'>Ground Truth</th>
 			<th style='text-align: center'>RMSSinger</th>
-			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
 	</thead>
 	<tbody>
