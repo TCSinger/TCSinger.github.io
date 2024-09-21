@@ -59,9 +59,9 @@ Successfully transferring the timbre, resonance in pop singing method, mixed voi
 	</thead>
 	<tbody>
 		<tr>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/styler/001.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/yourtts/001.wav' type='audio/wav'></audio></td>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mega/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/yourtts/001.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mega/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/rms/001.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/style/001.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/tc/001.wav' type='audio/wav'></audio></td>
 		</tr>
@@ -101,9 +101,9 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 	</thead>
 	<tbody>
 		<tr>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/styler/002.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/yourtts/002.wav' type='audio/wav'></audio></td>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mega/002.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/yourtts/002.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mega/002.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/rms/002.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/style/002.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/tc/002.wav' type='audio/wav'></audio></td>
 		</tr>
@@ -143,9 +143,9 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 	</thead>
 	<tbody>
 		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/styler/003.wav' type='audio/wav'></audio></td>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/yourtts/003.wav' type='audio/wav'></audio></td>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mega/003.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mega/003.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/rms/003.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/style/003.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/tc/003.wav' type='audio/wav'></audio></td>
 		</tr>
@@ -185,9 +185,9 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 	</thead>
 	<tbody>
 		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/styler/004.wav' type='audio/wav'></audio></td>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/yourtts/004.wav' type='audio/wav'></audio></td>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mega/004.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mega/004.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/rms/004.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/style/004.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/tc/004.wav' type='audio/wav'></audio></td>
 		</tr>
@@ -227,9 +227,9 @@ Successfully transferring the timbre, pronunciation, pitch transition style, rhy
 	</thead>
 	<tbody>
 		<tr>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/styler/005.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/yourtts/005.wav' type='audio/wav'></audio></td>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mega/005.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/yourtts/005.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mega/005.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/rms/005.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/style/005.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/tc/005.wav' type='audio/wav'></audio></td>
 		</tr>
@@ -268,9 +268,9 @@ Successfully transferring the timbre, pronunciation, pitch transition style, rhy
 	</thead>
 	<tbody>
 		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/styler/006.wav' type='audio/wav'></audio></td>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/yourtts/006.wav' type='audio/wav'></audio></td>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mega/006.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mega/006.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/rms/006.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/style/006.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/tc/006.wav' type='audio/wav'></audio></td>
 		</tr>
@@ -329,9 +329,9 @@ Successfully control global singing method and emotion, and the phoneme-level te
 	</thead>
 	<tbody>
 		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/styler/001.wav' type='audio/wav'></audio></td>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/yourtts/001.wav' type='audio/wav'></audio></td>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/mega/001.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/mega/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/rms/001.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/style/001.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/tc/001.wav' type='audio/wav'></audio></td>
 		</tr>
@@ -376,9 +376,9 @@ Successfully control global singing method and emotion, and the phoneme-level te
 	</thead>
 	<tbody>
 		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/styler/002.wav' type='audio/wav'></audio></td>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/yourtts/002.wav' type='audio/wav'></audio></td>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/mega/002.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/mega/002.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/rms/002.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/style/002.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/tc/002.wav' type='audio/wav'></audio></td>
 		</tr>
@@ -413,9 +413,9 @@ Successfully control global singing method and emotion, and the phoneme-level te
 	</thead>
 	<tbody>
 		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/styler/003.wav' type='audio/wav'></audio></td>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/yourtts/003.wav' type='audio/wav'></audio></td>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/mega/003.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/mega/003.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/rms/003.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/style/003.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/tc/003.wav' type='audio/wav'></audio></td>
 		</tr>
@@ -447,9 +447,9 @@ Successfully control global singing method and emotion, and the phoneme-level te
 	</thead>
 	<tbody>
 		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/styler/004.wav' type='audio/wav'></audio></td>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/yourtts/004.wav' type='audio/wav'></audio></td>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/mega/004.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/mega/004.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/rms/004.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/style/004.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/text/tc/004.wav' type='audio/wav'></audio></td>
 		</tr>
@@ -495,9 +495,9 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 	</thead>
 	<tbody>
 		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/styler/001.wav' type='audio/wav'></audio></td>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/yourtts/001.wav' type='audio/wav'></audio></td>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/mega/001.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/mega/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/rms/001.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/style/001.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/tc/001.wav' type='audio/wav'></audio></td>
 		</tr>
@@ -537,9 +537,9 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 	</thead>
 	<tbody>
 		<tr>
-     			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/styler/002.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/yourtts/002.wav' type='audio/wav'></audio></td>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/mega/002.wav' type='audio/wav'></audio></td>
+     			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/yourtts/002.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/mega/002.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/rms/002.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/style/002.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/cross/tc/002.wav' type='audio/wav'></audio></td>
 		</tr>
@@ -589,9 +589,9 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 	</thead>
 	<tbody>
 		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/styler/001.wav' type='audio/wav'></audio></td>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/yourtts/001.wav' type='audio/wav'></audio></td>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/mega/001.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/mega/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/rms/001.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/style/001.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/tc/001.wav' type='audio/wav'></audio></td>
 		</tr>
@@ -631,9 +631,9 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 	</thead>
 	<tbody>
 		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/styler/002.wav' type='audio/wav'></audio></td>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/yourtts/002.wav' type='audio/wav'></audio></td>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/mega/002.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/mega/002.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/rms/002.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/style/002.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/tc/002.wav' type='audio/wav'></audio></td>
 		</tr>
@@ -675,9 +675,9 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 	</thead>
 	<tbody>
 		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/styler/003.wav' type='audio/wav'></audio></td>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/yourtts/003.wav' type='audio/wav'></audio></td>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/mega/003.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/mega/003.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/rms/003.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/style/003.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/tc/003.wav' type='audio/wav'></audio></td>
 		</tr>
@@ -715,9 +715,9 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 	</thead>
 	<tbody>
 		<tr>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/styler/004.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/yourtts/004.wav' type='audio/wav'></audio></td>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/mega/004.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/yourtts/004.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/mega/004.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/rms/004.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/style/004.wav' type='audio/wav'></audio></td>
 				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sts/tc/004.wav' type='audio/wav'></audio></td>
 		</tr>
