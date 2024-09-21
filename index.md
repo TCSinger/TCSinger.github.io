@@ -50,9 +50,9 @@ Successfully transferring the timbre, resonance in pop singing method, mixed voi
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style='text-align: center'>Styler</th>
-		<th style='text-align: center'>YourTTS</th>
-			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>YourTTS</th>
+		<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>RMSSinger</th>
 			<th style='text-align: center'>StyleSinger</th>
 			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
@@ -92,9 +92,9 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style='text-align: center'>Styler</th>
-		<th style='text-align: center'>YourTTS</th>
-			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>YourTTS</th>
+		<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>RMSSinger</th>
 			<th style='text-align: center'>StyleSinger</th>
 			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
@@ -134,9 +134,9 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style='text-align: center'>Styler</th>
-		<th style='text-align: center'>YourTTS</th>
-			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>YourTTS</th>
+		<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>RMSSinger</th>
 			<th style='text-align: center'>StyleSinger</th>
 			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
@@ -176,9 +176,9 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style='text-align: center'>Styler</th>
-		<th style='text-align: center'>YourTTS</th>
-			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>YourTTS</th>
+		<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>RMSSinger</th>
 			<th style='text-align: center'>StyleSinger</th>
 			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
@@ -218,9 +218,9 @@ Successfully transferring the timbre, pronunciation, pitch transition style, rhy
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style='text-align: center'>Styler</th>
-		<th style='text-align: center'>YourTTS</th>
-			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>YourTTS</th>
+		<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>RMSSinger</th>
 			<th style='text-align: center'>StyleSinger</th>
 			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
@@ -259,9 +259,9 @@ Successfully transferring the timbre, pronunciation, pitch transition style, rhy
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style='text-align: center'>Styler</th>
-		<th style='text-align: center'>YourTTS</th>
-			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>YourTTS</th>
+		<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>RMSSinger</th>
 			<th style='text-align: center'>StyleSinger</th>
 			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
@@ -320,9 +320,9 @@ Successfully control global singing method and emotion, and the phoneme-level te
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style='text-align: center'>Styler</th>
-		<th style='text-align: center'>YourTTS</th>
-			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>YourTTS</th>
+		<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>RMSSinger</th>
 			<th style='text-align: center'>StyleSinger</th>
 			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
@@ -367,9 +367,9 @@ Successfully control global singing method and emotion, and the phoneme-level te
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style='text-align: center'>Styler</th>
-		<th style='text-align: center'>YourTTS</th>
-			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>YourTTS</th>
+		<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>RMSSinger</th>
 			<th style='text-align: center'>StyleSinger</th>
 			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
@@ -404,9 +404,9 @@ Successfully control global singing method and emotion, and the phoneme-level te
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style='text-align: center'>Styler</th>
-		<th style='text-align: center'>YourTTS</th>
-			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>YourTTS</th>
+		<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>RMSSinger</th>
 			<th style='text-align: center'>StyleSinger</th>
 			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
@@ -438,9 +438,9 @@ Successfully control global singing method and emotion, and the phoneme-level te
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style='text-align: center'>Styler</th>
-		<th style='text-align: center'>YourTTS</th>
-			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>YourTTS</th>
+		<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>RMSSinger</th>
 			<th style='text-align: center'>StyleSinger</th>
 			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
@@ -486,9 +486,9 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style='text-align: center'>Styler</th>
-		<th style='text-align: center'>YourTTS</th>
-			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>YourTTS</th>
+		<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>RMSSinger</th>
 			<th style='text-align: center'>StyleSinger</th>
 			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
@@ -528,9 +528,9 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style='text-align: center'>Styler</th>
-		<th style='text-align: center'>YourTTS</th>
-			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>YourTTS</th>
+		<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>RMSSinger</th>
 			<th style='text-align: center'>StyleSinger</th>
 			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
@@ -580,9 +580,9 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style='text-align: center'>Styler</th>
-		<th style='text-align: center'>YourTTS</th>
-			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>YourTTS</th>
+		<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>RMSSinger</th>
 			<th style='text-align: center'>StyleSinger</th>
 			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
@@ -622,9 +622,9 @@ Successfully transferring the timbre, the articulation method, pronunciation, pi
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style='text-align: center'>Styler</th>
-		<th style='text-align: center'>YourTTS</th>
-			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>YourTTS</th>
+		<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>RMSSinger</th>
 			<th style='text-align: center'>StyleSinger</th>
 			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
@@ -666,9 +666,9 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style='text-align: center'>Styler</th>
-		<th style='text-align: center'>YourTTS</th>
-			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>YourTTS</th>
+		<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>RMSSinger</th>
 			<th style='text-align: center'>StyleSinger</th>
 			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
@@ -706,9 +706,9 @@ Successfully transferring the timbre, pronunciation, pitch transition style, and
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style='text-align: center'>Styler</th>
-		<th style='text-align: center'>YourTTS</th>
-			<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>YourTTS</th>
+		<th style='text-align: center'>Mega-TTS</th>
+			<th style='text-align: center'>RMSSinger</th>
 			<th style='text-align: center'>StyleSinger</th>
 			<th style='text-align: center'>StyleSinger2</th>
 		</tr>
@@ -974,174 +974,3 @@ Obviously, StyleSinger2 can control different techniques for each phoneme.
 </table>
 
 ---
-
-# RMSSinger experiments
-
-In these tests, we utilized RMSSinger, the best traditional SVS model with spk embedding for evaluation.  
-
-## Zero-Shot Style Transfer
-
-1.Target Word: 说 什 么 情 深 似 海 我 却 不 敢 当 AP 最 浪 漫 不 过 与 你 并 肩 看 夕 阳 我 心 之 所 向
-
-Prompt: AP 原 来 所 谓 爱 情 AP 是 这 模 样 AP 就 承 认 一 笑 倾 城 一 见 自 难 忘 AP
-
-StyleSinger2 successfully transfers the timbre, and resonance in pop singing method, pronunciation, rhythm, and pitch transition style.
-
-<table style='width: 80%;'>
-	<thead>
-		<tr>
-			<th style='text-align: center'>Prompt</th>
-			<th style='text-align: center'>Ground Truth</th>
-			<th style='text-align: center'>RMSSinger</th>
-			<th style='text-align: center'>StyleSinger2</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/prompt/001.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/gt/001.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/rms/001.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/tc/001.wav' type='audio/wav'></audio></td>
-		</tr>
-	</tbody>
-</table>
-
-2.Target Word: AP 我 是 只 化 身 孤 岛 的 蓝 鲸 有 着 最 巨 大 的 身 影 AP 鱼 虾 在 身 侧 穿 行
-
-Prompt: 而 大 海 太 平 太 静 多 少 故 事 无 人 倾 听 AP 我 爱 地 中 海 的 天 晴
-
-StyleSinger2 successfully transfers the timbre, and resonance in pop singing method, pronunciation, rhythm, and pitch transition style.
-
-<table style='width: 80%;'>
-	<thead>
-		<tr>
-			<th style='text-align: center'>Prompt</th>
-			<th style='text-align: center'>Ground Truth</th>
-			<th style='text-align: center'>RMSSinger</th>
-			<th style='text-align: center'>StyleSinger2</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/prompt/002.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/gt/002.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/rms/002.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/tc/002.wav' type='audio/wav'></audio></td>
-		</tr>
-	</tbody>
-</table>
-
-## Multi-level Style Control
-
-1.Target Word: SP 向 左 SP 向 右 向 前 看 SP 爱 要 拐 几 个 弯 才 来 SP
-
-Global Text Prompt (Singing Method and Emotion): pop, sad
-
-Phoneme-Level Text Prompt (Technique Sequence): 
-```
-['SP(0)','x(1)','iang(1)','z(0)','uo(0)','SP(0)','x(2)','iang(2)','iou(2,6)','x(2)','iang(2,6)','q(2)','ian(2)','k(2)','an(2,6)','SP(0)','ai(0)','iao(0)','g(0)','uai(0)','j(0)','i(0)','g(0)','e(0)','uan(0)','c(0)','ai(6)','l(0)','ai(0)','SP(0)']
-```
-
-(0: no technique, 1: mix, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato, 6: glissando)
-
-Successfully control global singing method and emotion, and the phoneme-level techniques of glissando and falsetto.
-
-<table style='width: 60%;'>
-	<thead>
-		<tr>
-			<th style='text-align: center'>Ground Truth</th>
-			<th style='text-align: center'>RMSSinger</th>
-			<th style='text-align: center'>StyleSinger2</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/gt/003.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/rms/003.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/tc/003.wav' type='audio/wav'></audio></td>
-		</tr>
-	</tbody>
-</table>
-
-2.Target Word: AP 你 唤 醒 了 我 的 耳 朵 哦 带 走 我 AP
-
-Global Text Prompt (Singing Method and Emotion): bel canto, sad
-
-Phoneme-Level Text Prompt (Technique Sequence): 
-```
-['AP(0),'n(1)','i(1)','h(1)','uan(1)','x(1)','ing(1)','l(1)','e(1)','uo(1)','d(1)','e(1)','er(1)','d(1)','uo(1,6)','o(1)','d(1)','ai(1,6)','z(1)','ou(1,5,6)','AP(0)']
-```
-
-(0: no technique, 1: mix, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato, 6: glissando)
-
-Successfully control global singing method and emotion, and the phoneme-level techniques of vibrato and mixed voice.
-
-<table style='width: 60%;'>
-	<thead>
-		<tr>
-			<th style='text-align: center'>Ground Truth</th>
-			<th style='text-align: center'>RMSSinger</th>
-			<th style='text-align: center'>StyleSinger2</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/gt/004.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/rms/004.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/tc/004.wav' type='audio/wav'></audio></td>
-		</tr>
-	</tbody>
-</table>
-
-## Speech-to-Singing Style Transfer
-
-1.Target Word: I don't care if I know
-
-Prompt: city of stars
-
-StyleSinger2 successfully transfers the timbre, pronunciation, pitch transition style, and rhythm.
-
-<table style='width: 80%;'>
-	<thead>
-		<tr>
-			<th style='text-align: center'>Prompt</th>
-			<th style='text-align: center'>Ground Truth</th>
-			<th style='text-align: center'>RMSSinger</th>
-			<th style='text-align: center'>StyleSinger2</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/prompt/005.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/gt/005.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/rms/005.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/tc/005.wav' type='audio/wav'></audio></td>
-		</tr>
-	</tbody>
-</table>
-
-2.Target Word: I'm turning my head up and down
-
-Prompt: yesterday you told me about the blue blue sky
-
-StyleSinger2 successfully transfers the timbre, pronunciation, pitch transition style, and rhythm.
-
-<table style='width: 80%;'>
-	<thead>
-		<tr>
-			<th style='text-align: center'>Prompt</th>
-			<th style='text-align: center'>Ground Truth</th>
-			<th style='text-align: center'>RMSSinger</th>
-			<th style='text-align: center'>StyleSinger2</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/prompt/006.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/gt/006.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/rms/006.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/rms/tc/006.wav' type='audio/wav'></audio></td>
-		</tr>
-	</tbody>
-</table>
-
