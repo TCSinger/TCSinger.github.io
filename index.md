@@ -14,8 +14,6 @@ Specifically, StyleSinger 2 proposes three primary modules:
 3) the style adaptive decoder uses a novel mel-style adaptive normalization method to generate singing voices with enhanced details.
 Experimental results show that StyleSinger 2 outperforms all baseline models in synthesis quality, singer similarity, and style controllability across various tasks, including zero-shot style transfer, multi-level style control, cross-lingual style transfer, and speech-to-singing style transfer.
 
-![arch](./arch.jpg)
-
 ---
 
 **Note：** We conduct all tasks in the zero-shot scenario, with training and testing on cross-lingual speech and singing data. 
